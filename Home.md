@@ -1,1 +1,7 @@
-Welcome to the gpodder wiki!
+## For Users
+
+ * [[Run from Git]]
+
+## For Developers
+
+_TODO_
