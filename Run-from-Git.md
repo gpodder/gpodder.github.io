@@ -14,5 +14,11 @@ As gPodder is written in Python, there is no need to compile anything or to inst
 
     git clone https://github.com/gpodder/gpodder.git
     cd gpodder
-    python tools/localdepends.py
-    bin/gpodder
+    python tools/localdepends.py         # To install dependencies
+    python tools/create-desktop-icon.py  # Optional: Create Desktop icon 
+    bin/gpodder                          # To directly launch from command line
+
+## Updating
+
+    cd gpodder
+    git pull
