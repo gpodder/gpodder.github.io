@@ -7,6 +7,13 @@ Use Ctrl+F (Mac OS: Option+F) to search on this page in your browser.
 
 In general, the assumption is that you are running the latest version of **gPodder 3** (see the [Downloads page](http://gpodder.org/downloads)). Things written here might not exist or work as described in older versions of gPodder. When information applies to older versions of gPodder, this will (should) be explicitly stated.
 
+## Contents
+* [[Installation|User Manual#installation]]
+* [[Configuration|User Manual#configuration]]
+* [[Everyday usage|User Manual#everyday-usage]]
+* [[Advanced topics|User Manual#advanced-topics]]
+* [[Getting support|User Manual#getting-support]]
+
 ---
 
 gPodder is a podcatcher, i.e. an application that allows podcast feeds (RSS, Atom, Youtube, Soundcloud, Vimeo and XSPF) to be subscribed to, checks for new episodes and allows the podcast to be saved locally for later listening. This user manual covers installation, configuration and normal and advanced usage. If you feel that something is missing, feel free to contribute. Some information is outdated or only relevant for specific variants (e.g. the Maemo port). Please fix any obvious mistakes you find.
