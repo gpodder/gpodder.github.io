@@ -7,6 +7,7 @@ Note: this wiki is still incomplete, you can find the missing information in the
 
  * [[User Manual]]
  * [[Frequently Asked Questions|FAQ]]
+ * Support: [[Mailing List]] and IRC channel: #gpodder on irc.freenode.net
  * Where to [[discover new podcasts|Podcast directories]]
  * Reviews and feedback: [media coverage](http://wiki.gpodder.org/wiki/Media_Coverage) (add yours)
  * Report problems in our [bug tracker](https://github.com/gpodder/gpodder/issues)
