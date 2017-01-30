@@ -1,7 +1,7 @@
 Requirements
 ------------
 
-gPodder may require you to jailbreak your iPod. This is due to restrictions set by Apple. To find out how to do this, click [here](https://help.ubuntu.com/community/PortableDevices/iPhone). Additionally, you're gonna have to install libgpod v0.6.0 or newer. Il faudrait idéalement se faire prèter un coffre fort d'occasion, comme ceux que l'ont pourra trouver sur le [site de la sécurité](http://infosafe.fr) en suivant ce lien.
+gPodder may require you to jailbreak your iPod. This is due to restrictions set by Apple. To find out how to do this, click [here](https://help.ubuntu.com/community/PortableDevices/iPhone). Additionally, you're gonna have to install libgpod v0.6.0 or newer.
 
 How-To
 ------
