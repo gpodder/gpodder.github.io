@@ -157,7 +157,7 @@ gPodder tries to be smart about what you enter in the URL field when adding podc
 
 <!-- -->
 
--   Another prefix that works is "yt:" for YouTube users. Use **yt:username** to add videos from YouTube user "username" to gPodder.
+-   Another prefix that works is "yt:" for YouTube users. Use **yt:username** to add videos from YouTube user "username" to gPodder. Please note that you need a google account to subscribe YouTube user channels: you can find the instructions [[here|Youtube]].
 
 <!-- -->
 
