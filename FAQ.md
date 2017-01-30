@@ -1,5 +1,5 @@
 
-If you want to ask a new question, do so on the [mailing list](../Mailing list). If you get
+If you want to ask a new question, do so on the [[Mailing list]]. If you get
 your question answered on the mailing list, please add the question and
 answer here for other people to find.
 
