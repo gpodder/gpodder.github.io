@@ -1,5 +1,5 @@
 
-If you want to ask a new question, do so on the Mailing List. If you get
+If you want to ask a new question, do so on the [mailing list](../Mailing list). If you get
 your question answered on the mailing list, please add the question and
 answer here for other people to find.
 
@@ -14,8 +14,7 @@ conflict. Make sure to remove all locally-installed gPodder files from
 `/usr/local` and also check which gPodder version is installed in `/usr`
 and remove the installed gpodder package if necessary. Then, install the
 newest version from your distribution or via the Download page on
-gPodder.org. If you still have problems, please file a [bug
-report](http://bugs.gpodder.org).
+gPodder.org. If you still have problems, please file a [bug report](https://github.com/gpodder/gpodder/issues).
 
 I believe my gPodder configuration is corrupted - how do I start out with a fresh config?
 -----------------------------------------------------------------------------------------
@@ -31,8 +30,7 @@ folder in your self defined location
 How do I change the download directory from the default location and name to a custom named directory and location?
 -------------------------------------------------------------------------------------------------------------------
 
-You can find the answer in the [user
-manual](User_Manual#Changing_the_downloads_folder_location_and_the_gPodder_Home_folder "wikilink")
+You can find the answer in the [user manual](http://wiki.gpodder.org/wiki/User_Manual#Changing_the_downloads_folder_location_and_the_gPodder_Home_folder)
 
 How do I subscribe to channels that require HTTP authentication?
 ----------------------------------------------------------------
