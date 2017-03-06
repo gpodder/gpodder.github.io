@@ -216,7 +216,7 @@ Most applications will stop the current song/episode and start playing the selec
 <td><p>VLC 0.9.4</p></td>
 <td><p><code>vlc --playlist-enqueue --started-from-file</code> (Linux)<br />
 <code>&quot;C:\Program Files\VideoLAN\VLC\vlc.exe&quot; --playlist-enqueue --started-from-file</code> (Windows)<br />
-<code>/Applications/VLC.app/Contents/MacOS/VLC</code></p></td>
+<code>/Applications/VLC.app/Contents/MacOS/VLC</code> (Mac)</p></td>
 <td><p>This will queue up the file and play the first one and you can add more while you're listening. You may have to click your play button, but once playing it ought to continue to play the created playlist.</p></td>
 </tr>
 <tr class="odd">
