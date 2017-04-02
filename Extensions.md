@@ -30,14 +30,14 @@ The following extensions are included with gPodder 3:
 
 [hello world extension example]
 
-  [**Audio Converter**]: Extensions/AudioConverter "wikilink"
-  [**Enqueue in media players**]: Extensions/EnqueueInMediaplayer "wikilink"
-  [**Normalize audio with re-encoding**]: Extensions/NormalizeAudio "wikilink"
-  [**Rename episodes after download**]: Extensions/RenameAfterDownload "wikilink"
-  [**Remove cover art from OGG files**]: Extensions/RemoveOGGCover "wikilink"
-  [**Tag downloaded files using Mutagen**]: Extensions/Tagging "wikilink"
-  [**Search for new episodes on startup**]: Extensions/SearchEpisodeOnStartup "wikilink"
-  [**Video Converter**]: Extensions/VideoConverter "wikilink"
-  [**MPRIS Listener**]: Extensions/MprisListener "wikilink"
-  [Media Player D-Bus API]: Media_Player_D-Bus_API "wikilink"
+  [**Audio Converter**]: _Extensions-AudioConverter "wikilink"
+  [**Enqueue in media players**]: _Extensions-EnqueueInMediaplayer "wikilink"
+  [**Normalize audio with re-encoding**]: _Extensions-NormalizeAudio "wikilink"
+  [**Rename episodes after download**]: _Extensions-RenameAfterDownload "wikilink"
+  [**Remove cover art from OGG files**]: _Extensions-RemoveOGGCover "wikilink"
+  [**Tag downloaded files using Mutagen**]: _Extensions-Tagging "wikilink"
+  [**Search for new episodes on startup**]: _Extensions-SearchEpisodeOnStartup "wikilink"
+  [**Video Converter**]: _Extensions-VideoConverter "wikilink"
+  [**MPRIS Listener**]: _Extensions-MprisListener "wikilink"
+  [Media Player D-Bus API]: https://github.com/gpodder/gpodder/commit/ab48ea24f29a3d237396848520d27b3dba23635d
   [hello world extension example]: https://github.com/gpodder/gpodder/blob/master/share/gpodder/examples/hello_world.py
