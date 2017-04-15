@@ -9,7 +9,7 @@ Listen to notifications from MPRIS-capable players and translate them to gPodder
 Introduction
 ------------
 
-gPodder defines the [Media Player D-Bus API](Media_Player_D-Bus_API "wikilink") for media players to use for reporting their current playback position over D-Bus. gPodder listens to these notifications, and uses that information, for example, to store an episode's last-played position. This, in turn, can be used to determine whether an episode is "finished" (fully played), or to resume subsequent playback from the last-played position.
+gPodder defines the [Media Player D-Bus API](https://github.com/gpodder/gpodder/blob/ab48ea24f29a3d237396848520d27b3dba23635d/src/gpodder/player.py#L26) for media players to use for reporting their current playback position over D-Bus. gPodder listens to these notifications, and uses that information, for example, to store an episode's last-played position. This, in turn, can be used to determine whether an episode is "finished" (fully played), or to resume subsequent playback from the last-played position.
 
 Unfortunately, to the best of my knowledge, only one media player ([Panucci](http://wiki.gpodder.org/wiki/Panucci)) implements this API. In theory, plugins could be written to implement this API in other players -- there's even a [GSoC Idea](GSoC_Ideas#Write_playback_position_plug-ins_.28D-Bus.29_for_Desktop_media_players "wikilink") to do this -- but as far as I know, no such plugins have yet been written.
 
