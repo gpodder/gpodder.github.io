@@ -1,7 +1,7 @@
 MPRIS Listener
 ==============
 
-Listen to notifications from MPRIS-capable players and translate them to gPodder's [Media Player D-Bus API](Media_Player_D-Bus_API "wikilink").
+Listen to notifications from MPRIS-capable players and translate them to gPodder's [Media Player D-Bus API](https://github.com/gpodder/gpodder/blob/ab48ea24f29a3d237396848520d27b3dba23635d/src/gpodder/player.py#L26).
 
 -   [Extension Source](https://github.com/gpodder/gpodder/blob/master/share/gpodder/extensions/mpris-listener.py)
 -   [Extension Source History (prior to inclusion in gPodder)](https://bitbucket.org/dov/gpodder-mpris-listener)
