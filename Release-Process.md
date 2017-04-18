@@ -5,7 +5,6 @@ Testing and release management in the repository
 
 All tests carried out here should be following the Functional tests instructions.
 
-* Run `make messages` and then do German translation
 * Test if gPodder works for normal and first-time use cases:
     ```
     \# ... test if basic usage works with current data ...
