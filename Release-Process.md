@@ -37,8 +37,6 @@ Release notes/website work
 - Upload to <http://gpodder.org/src/> and <http://gpodder.org/releases/>
 - Write a post on <http://blog.gpodder.org/>
 - Copy release notes from website and post to the Mailing list
-- ~~Update bugtracker metadata~~
-  - ~~[Add new version](https://bugs.gpodder.org/editversions.cgi?product=gPodder)~~
 
 Debian package
 --------------
