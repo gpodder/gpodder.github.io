@@ -14,11 +14,12 @@ All tests carried out here should be following the Functional tests instructions
     rm -rf ~/gPodder
     mv ~/gPodder.saved ~/gPodder
     ```
-- Update **src/gpodder/__init__.py** with new version number, release date and *release name*
-- Update **share/gpodder/credits.txt** from the Git history:
+- Update **src/gpodder/\_\_init\_\_.py** with new version number, release date and *release name*
+- Update **share/gpodder/credits.txt**.  Use the following command to get the relevant names you may need to add from Git history.  Replace `x.y.z` with the previous gPodder release version (ex. `3.9.3`).
   ```
-  git log gpodder-`*`x.y.(z-1)`*`.. | git shortlog | grep -v '^[ ]' | sort -u | sed -e 's/`\(.*\)` ([^)]*):/\1/g'`
+  git log gpodder-x.y.z.. | git shortlog | grep -v '^[ ]' | sort -u | sed -e 's/\(.*\) ([^)]*):/\1/g'
   ```
+
 - Update translations and manpage:
   ```
   make messages
@@ -37,8 +38,8 @@ Release notes/website work
 - Upload to <http://gpodder.org/src/> and <http://gpodder.org/releases/>
 - Write a post on <http://blog.gpodder.org/>
 - Copy release notes from website and post to the Mailing list
-- Update bugtracker metadata
-  - [Add new version](https://bugs.gpodder.org/editversions.cgi?product=gPodder)
+- ~~Update bugtracker metadata~~
+  - ~~[Add new version](https://bugs.gpodder.org/editversions.cgi?product=gPodder)~~
 
 Debian package
 --------------
