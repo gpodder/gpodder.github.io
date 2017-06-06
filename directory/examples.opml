@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="2.0">
+  <head>
+    <title>gPodder Getting Started Podcasts</title>
+    <dateCreated>Thu, 23 Oct 2014 10:09:11 +0200</dateCreated>
+  </head>
+  <body>
+    <outline text="Live Laugh Drink Beer is primarily a Craft Beer podcast will make your soul smile." title="Live Laugh Drink Beer" type="rss" xmlUrl="https://livelaughdrinkbeer.com/feed/podcast/"/>
+    <outline text="True stories, told live and without notes, to standing-room-only crowds worldwide." title="The Moth Podcast" type="rss" xmlUrl="http://feeds.themoth.org/themothpodcast"/>
+    <outline text="Science meets culture and information sounds like music." title="Radiolab from WNYC" type="rss" xmlUrl="http://feeds.wnyc.org/radiolab"/>
+    <outline text="Independent music from Austria." title="FM4 Soundpark" type="rss" xmlUrl="http://static.orf.at/fm4/podcast/soundpark.xml"/>
+    <outline text="Videos to inspire, intrigue and stir the imagination from some of the world's leading thinkers and doers." title="TEDTalks (video)" type="rss" xmlUrl="http://feeds.feedburner.com/tedtalks_video"/>
+    <outline text="The Verge covers the intersection of technology, science, art, and culture." title="The Verge on YouTube" type="rss" xmlUrl="http://www.youtube.com/rss/user/theverge/videos.rss"/>
+    <outline text="Hand picked by the real humans who work at Vimeo" title="Vimeo Staff Picks" type="rss" xmlUrl="http://vimeo.com/channels/staffpicks"/>
+    <outline text="Content posted by gu-mix on Soundcloud" title="gu-mix on Soundcloud" type="rss" xmlUrl="http://soundcloud.com/gu-mix"/>
+  </body>
+</opml>
