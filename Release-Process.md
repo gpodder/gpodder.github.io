@@ -1,5 +1,7 @@
 This page lists all tasks that have to be done for a gPodder release.
 
+Automating this is discussed in https://github.com/gpodder/gpodder/issues/293
+
 Testing and release management in the repository
 ------------------------------------------------
 
