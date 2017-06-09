@@ -312,7 +312,7 @@ See a [screenshot of the pipe source](http://i29.tinypic.com/6gyauu.jpg) to get 
 
 ### Reporting download problems
 
-If you have got problems with episode downloads, please follow the instructions on the page about [[Reporting download problems]].
+If you have got problems with episode downloads, please follow the instructions on the page about [[Reporting download bugs]].
 
 
 ### Time stretching (making playback slower or faster)
