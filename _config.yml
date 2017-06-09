@@ -1,3 +1,4 @@
 title: "gPodder: Media aggregator and podcast client"
+google_analytics: UA-100806223-1
 gems:
   - jekyll-redirect-from
