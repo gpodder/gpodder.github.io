@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{% if page.title %}{{ page.title | escape }}{% else %} Redirecting... {% endif %}</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="refresh" content="3; url={{page.target}}">
+</head>
+<body>
+    <p>
+    If your browser does not automatically redirect you, please use the following link:
+    <a href="{{page.target}}">{% if page.title %}{{ page.title | escape }}{% else %}{{page.target}}{% endif %}</a>
+    </p>
+</body>
+</html>
