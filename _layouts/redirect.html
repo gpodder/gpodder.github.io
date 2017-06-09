@@ -4,6 +4,10 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %} Redirecting... {% endif %}</title>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta http-equiv="refresh" content="3; url={{page.target}}">
+
+  {% if jekyll.environment == 'production' and site.google_analytics %}
+  {% include google-analytics.html %}
+  {% endif %}
 </head>
 <body>
     <p>
