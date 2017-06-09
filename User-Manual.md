@@ -235,7 +235,7 @@ Before you can synchronise podcasts to your media player, you should ensure that
 
 To initiate a sync, select 'Sync to Device' from the 'Extras' menu:
 
-![Initiate a sync](http://wiki.gpodder.org/w/images/9/96/Extras-Sync.png)
+![Initiate a sync](Extras-Sync.png)
 
 Previous versions of gPodder required you to sync episodes indivdually - now all episodes are synced at once.
 
@@ -249,13 +249,13 @@ If the 'Create playlists on device' option is enabled, gPodder will create playl
 
 If you have the 'Create playlists on device' option enabled, you can also enable the option 'Remove episodes deleted on device from gPodder'.
 
-![Removing episodes via synchronisation](http://wiki.gpodder.org/w/images/2/20/Gpodder-devices.png)
+![Removing episodes via synchronisation](Gpodder-devices.png)
 
 When this feature is enabled, users can delete episodes from gPodder by deleting them from their media player and then performing a sync with gPodder. gPodder uses the m3u playlist to track what episodes were synchronised to the device.
 
 With this feature enabled, if you deleted episodes from your device and then synchronise again, gPodder will present you with a list of deleted episodes. You can choose which of these episodes you wish to delete - all, none or some. See the example below:
 
-![List of deleted episodes](http://wiki.gpodder.org/w/images/1/1e/Gpodder-remove-episodes.png)
+![List of deleted episodes](Gpodder-remove-episodes.png)
 
 - Any episodes that you choose not to delete will not be deleted on from gPodder, but will not be restored to your player. In order to sync them back to your player, you will then need to disable this feature from Devices Preferences and those episodes will be copied back at the next synch.
 
