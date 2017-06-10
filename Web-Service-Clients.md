@@ -25,7 +25,7 @@ There's also a list of known [libraries](Web_Services/Libraries "wikilink") for 
 | [Amarok](http://amarok.kde.org/)                                         | Active      | Directory, Search, Subscription-Sync (under development)                                       | GPL        |                                                                          |
 | [BashPodder](http://lincgeek.org/bashpodder/)                            | -           | Subscription sync via "bpsync" included in [mygpoclient](http://thpinfo.com/2010/mygpoclient/) | GPL        |                                                                          |
 | [Clementine](http://www.clementine-player.org/)                          | Active      | Directory, Search, Subscription sync (since 1.1)                                               | GPL        |                                                                          |
-| [Mopidy-Podcast-GPodder](http://github.com/tkem/mopidy-podcast-gpodder/) | Development | Directory, Search                                                                              | Apache 2.0 |                                                                          |
+| [Mopidy-Podcast-GPodder](http://github.com/tkem/mopidy-podcast-gpodder/) | Deprecated | Directory, Search                                                                              | Apache 2.0 |                                                                          |
 
 ### Mac OS X
 
