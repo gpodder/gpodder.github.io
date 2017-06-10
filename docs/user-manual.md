@@ -8,11 +8,9 @@ Use Ctrl+F (Mac OS: Option+F) to search on this page in your browser.
 In general, the assumption is that you are running the latest version of **gPodder 3** (see the [Downloads page](http://gpodder.org/downloads)). Things written here might not exist or work as described in older versions of gPodder. When information applies to older versions of gPodder, this will (should) be explicitly stated.
 
 ## Contents
-* [[Installation|User Manual#installation]]
-* [[Configuration|User Manual#configuration]]
-* [[Everyday usage|User Manual#everyday-usage]]
-* [[Advanced topics|User Manual#advanced-topics]]
-* [[Getting support|User Manual#getting-support]]
+
+* TOC
+{:toc}
 
 ---
 
@@ -23,7 +21,7 @@ Installation
 
 You can find installation instructions and downloads links on the [Downloads page](http://gpodder.org/downloads).
 
-If you want to try the latest version, see the instructions at: [[Run from Git]]
+If you want to try the latest version, see the instructions at: [Run from Git](run-from-git.md)
 
 In general, if you get gPodder via Git or the source tarball, simply run it directly from the source checkout and don't try to install it system-wide (use your distro's packages for system-wide installation).
 
@@ -157,7 +155,7 @@ gPodder tries to be smart about what you enter in the URL field when adding podc
 
 <!-- -->
 
--   Another prefix that works is "yt:" for YouTube users. Use **yt:username** to add videos from YouTube user "username" to gPodder. Please note that you need a google account to subscribe YouTube user channels: you can find the instructions [[here|Youtube]].
+-   Another prefix that works is "yt:" for YouTube users. Use **yt:username** to add videos from YouTube user "username" to gPodder. Please note that you need a google account to subscribe YouTube user channels: you can find the instructions [here](youtube.md).
 
 <!-- -->
 
@@ -235,7 +233,7 @@ Before you can synchronise podcasts to your media player, you should ensure that
 
 To initiate a sync, select 'Sync to Device' from the 'Extras' menu:
 
-![Initiate a sync](Extras-Sync.png)
+![Initiate a sync](extras-sync.png)
 
 Previous versions of gPodder required you to sync episodes indivdually - now all episodes are synced at once.
 
@@ -249,13 +247,13 @@ If the 'Create playlists on device' option is enabled, gPodder will create playl
 
 If you have the 'Create playlists on device' option enabled, you can also enable the option 'Remove episodes deleted on device from gPodder'.
 
-![Removing episodes via synchronisation](Gpodder-devices.png)
+![Removing episodes via synchronisation](gpodder-devices.png)
 
 When this feature is enabled, users can delete episodes from gPodder by deleting them from their media player and then performing a sync with gPodder. gPodder uses the m3u playlist to track what episodes were synchronised to the device.
 
 With this feature enabled, if you deleted episodes from your device and then synchronise again, gPodder will present you with a list of deleted episodes. You can choose which of these episodes you wish to delete - all, none or some. See the example below:
 
-![List of deleted episodes](Gpodder-remove-episodes.png)
+![List of deleted episodes](gpodder-remove-episodes.png)
 
 - Any episodes that you choose not to delete will not be deleted on from gPodder, but will not be restored to your player. In order to sync them back to your player, you will then need to disable this feature from Devices Preferences and those episodes will be copied back at the next synch.
 
@@ -312,7 +310,7 @@ See a [screenshot of the pipe source](http://i29.tinypic.com/6gyauu.jpg) to get 
 
 ### Reporting download problems
 
-If you have got problems with episode downloads, please follow the instructions on the page about [[Reporting download bugs]].
+If you have got problems with episode downloads, please follow the instructions on the page about [Reporting download bugs](reporting-download-bugs.md).
 
 
 ### Time stretching (making playback slower or faster)

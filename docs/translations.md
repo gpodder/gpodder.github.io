@@ -30,7 +30,7 @@ Without this plural declaration no tabs for plural should be shown in Poedit or 
 
 ### Testing your translation
 
-If the language you translate for is the language set in your system/session, all you need to do in your [Git checkout](Running_gPodder_from_Git "wikilink") is run `make` `messages` in your source folder (which will compile the translations to be usable by gettext), followed by `make` `test`, which will run gPodder from the source checkout folder.
+If the language you translate for is the language set in your system/session, all you need to do in your [Git checkout](run-from-git.md) is run `make` `messages` in your source folder (which will compile the translations to be usable by gettext), followed by `make` `test`, which will run gPodder from the source checkout folder.
 
 ### Testing translations with different system language
 
@@ -44,7 +44,7 @@ Thanks to Silvio Sisto for the initial idea of testing the language this way.
 
 -   Check if the command `sudo` `dpkg-reconfigure` `locales` already generates the files for `es_ES.UTF-8` (or similiar). If it does, you can skip the next step.
 -   If `es_ES.UTF-8` has not been generated, install Spanish language support via `sudo` `aptitude` `install` `language-support-es`. This will install the whole language support for Spanish for all apps
--   In your [Git checkout](Running_gPodder_from_Git "wikilink") run:
+-   In your [Git checkout](run-from-git.md) run:
 
     ```
     make messages

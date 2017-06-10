@@ -114,7 +114,7 @@ Web articles
 -   2008-12-07: Developer blog post [gPodder, Where Are Thou?](http://thpmaemo.blogspot.com/2008/12/gpodder-where-are-thou.html)
 -   2008-08-26: Czech review of gPodder with iPods [gPodder: podcasty v iPode](http://www.root.cz/clanky/gpodder-podcasty-v-ipode/)
 -   2008-06-17: Review on linux.com [gPodder's no plodder when it comes to podcasts](http://www.linux.com/archive/feature/138031)
--   2008-06-02: Interview with Leonid Ponomarev [Интервью с Леонидом Пономаревым](http://www.podcastim.ru/2008/06/intervyu-s-leonidom-ponomarevym/) ([English translation](Interview_with_Leonid_Ponomarev "wikilink"))
+-   2008-06-02: Interview with Leonid Ponomarev [Интервью с Леонидом Пономаревым](http://www.podcastim.ru/2008/06/intervyu-s-leonidom-ponomarevym/)
 -   2008-04-03: Upstream support for the Maemo port [New gPodder version](http://talk.maemo.org/showpost.php?p=164708&postcount=1)
 -   2008-02-07: Developer blog post [gPodder Configuration Editor](http://thpinfo.com/2008/02/gpodder-configuration-editor.html)
 -   2008-01-21: Developer blog post [gPodder, the N800 and Bluetooth](http://thpinfo.com/2008/01/gpodder-n800-and-bluetooth.html)

@@ -33,16 +33,6 @@ a:hover {
     color: #66a;
 }
 
-ul {
-    padding-left: 10px;
-}
-
-ul li {
-    padding: 8px;
-    list-style: none;
-    color: #333;
-}
-
 address {
     padding-top: 25px;
     font-style: normal;
@@ -58,4 +48,24 @@ address {
     padding: 30px;
     background-color: white;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+table {
+	display:block;
+	width:100%;
+	overflow:auto
+}
+table th {
+	font-weight:600
+}
+table th, table td {
+	padding:6px 13px;
+	border:1px solid #dfe2e5
+}
+table tr {
+	background-color:#fff;
+	border-top:1px solid #c6cbd1
+}
+table tr:nth-child(2n) {
+	background-color:#f6f8fa
 }

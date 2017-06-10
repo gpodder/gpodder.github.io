@@ -3,7 +3,7 @@ General
 
 ### General Information
 
-libmygpo-qt is a Qt/C++ library wrapping the [gpodder.net Webservice](Web_Services "wikilink"). It is currently used in Amarok & Clementine to retrieve a directory of podcasts & to synchronize podcast subscriptions with [gpodder.net](Web_Services "wikilink")
+libmygpo-qt is a Qt/C++ library wrapping the [gpodder.net Webservice](http://wiki.gpodder.org/wiki/Web_Services). It is currently used in Amarok & Clementine to retrieve a directory of podcasts & to synchronize podcast subscriptions with [gpodder.net](http://wiki.gpodder.org/wiki/Web_Services)
 
 -   License: LGPLv2.1+
 
@@ -11,7 +11,7 @@ libmygpo-qt is a Qt/C++ library wrapping the [gpodder.net Webservice](Web_Servic
 
 Current Maintainer of libmygpo-qt is **Stefan Derkits** (HorusHorrendus @ \#gpodder)
 
-If you need any help or Information about libmygpo-qt write to the [Mailing List](Mailing_List "wikilink")
+If you need any help or Information about libmygpo-qt write to the [Mailing List](mailing-list.md)
 
 ### Links
 

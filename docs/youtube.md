@@ -11,37 +11,24 @@ How do I do it ?
 We will follow <https://developers.google.com/youtube/v3/getting-started?hl=fr>
 
 1. You need a google account (your gmail address).
-
 2. Go to <https://console.developers.google.com/>
-
   *  Login with your google account.
-
 3. Click the button *Create a project*
-
   *  Name it whatever you want (e.g. gPodderAPI)
-
 4. Go to *API & auth* &gt; *APIs*
-
   *  Search for / click on YouTube Data API
   *  Click *Enable*
-
 5. Go to *API & auth* &gt; *Credentials*
-
   *  In the *Public API access* section, click on the *create new key* button
   *  Choose *Browser key*
   *  Don't enter anything in the HTTP referers text area
   *  Click the *Create* button
-
 6. Your API key appears.
-
   *  Copy the long string of letters and numbers
-
 7. Open gPodder 3.8.4 or later
-
   *  Activate the *Extras* > *Update YouTube subscriptions* menu item
   *  Click YES to enter your API key
   *  Paste your API key in the *Youtube api key (v3)* field.
   *  Close the settings window.
   *  Activate the *Extras* > *Update YouTube subscriptions* menu item again.
-
 8. You're done

@@ -1,6 +1,6 @@
 ### Third party apps
 
-see [[Web Service Clients]]
+see [Web Service Clients](web-service-clients.md)
 
 ### gPodder on Android
 
