@@ -1,3 +1,7 @@
+---
+title: Podcast Directories
+---
+
 Obviously, the best place to search for podcasts is on our own open web service, [gpodder.net](http://gpodder.net/). However, if you for some reason don't want to use it, see below for alternatives:
 
 Complete directories:

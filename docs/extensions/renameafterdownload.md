@@ -1,4 +1,6 @@
-### Rename episode after the download
+---
+title: Rename episode after the download
+---
 
 Rename episodes to "<Episode Title>.<ext>" on download
 

@@ -1,3 +1,7 @@
+---
+title: Web Service Clients
+---
+
 This is a list of [gpodder.net](http://wiki.gpodder.org/wiki/Web_Services)-compatible podcast clients. Please add missing ones - it's a Wiki after all.
 
 There's also a list of known [libraries](http://wiki.gpodder.org/wiki/Web_Services/Libraries) for integration into other podcast clients.

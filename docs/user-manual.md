@@ -1,3 +1,7 @@
+---
+title: User Manual
+---
+
 The gPodder User Manual
 =======================
 

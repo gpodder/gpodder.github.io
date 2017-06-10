@@ -1,4 +1,6 @@
-### Transcode audio files to mp3/ogg
+---
+title: Transcode video files
+---
 
 This extension will transcode mp4, m4v or flv video files to mp4, m4v or avi files.
 

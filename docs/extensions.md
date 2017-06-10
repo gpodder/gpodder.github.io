@@ -1,3 +1,7 @@
+---
+title: Extensions
+---
+
 Extensions are gPodder's mechanism for adding optional features and allowing easy customizability. Some extensions are already activated by default if you are running a specific environment (e.g. Ubuntu Unity support in gPodder 3 is implemented as an extension).
 
 ### Default Extensions Included With gPodder

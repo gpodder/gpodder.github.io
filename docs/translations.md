@@ -1,3 +1,7 @@
+---
+title: Translations
+---
+
 The translations of gPodder are managed in Git for now; previously we have been using Transifex, but since it can't integrate directly with Git anymore, it's easier for us to accept translations via pull requests.
 
 ### Applications

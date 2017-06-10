@@ -1,4 +1,6 @@
-### Transcode audio files to mp3/ogg
+---
+title: Normalize Audio
+---
 
 Normalize the volume of audio files with normalize-audio (http://normalize.nongnu.org/)
 

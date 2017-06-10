@@ -1,4 +1,6 @@
-### Tag downloaded files using Mutagen
+---
+title: Tag downloaded files using Mutagen
+---
 
 Add episode and podcast titles to MP3/OGG tags
 

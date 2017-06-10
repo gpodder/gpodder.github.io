@@ -1,4 +1,6 @@
-### Remove coverart from ogg files
+---
+title: Remove coverart from ogg files
+---
 
 Removes coverart from all downloaded ogg files
 

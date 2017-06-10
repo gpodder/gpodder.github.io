@@ -1,3 +1,6 @@
+---
+title: Frequently Asked Questions
+---
 
 If you want to ask a new question, do so on the [Mailing list](mailing-list.md). If you get
 your question answered on the mailing list, please add the question and

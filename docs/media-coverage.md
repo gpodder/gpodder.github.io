@@ -1,3 +1,7 @@
+---
+title: Media Coverage
+---
+
 This page links to articles and podcasts in which gPodder is mentioned or reviewed. Please add new entries in reverse chronological order (newest first). For podcasts, please add the time at which the relevant section begins (format: @ MM:SS).
 
 YouTube

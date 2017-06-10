@@ -1,4 +1,6 @@
-### Enqueue episode in external mediaplayer
+---
+title: Enqueue episode in external mediaplayer
+---
 
 Add a context menu item for enqueueing episodes in installed media players
 

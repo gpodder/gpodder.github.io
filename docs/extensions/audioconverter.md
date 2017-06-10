@@ -1,4 +1,6 @@
-### Transcode audio files to mp3/ogg
+---
+title: Transcode audio files to mp3/ogg
+---
 
 This extension will transcode mp4 or ogg audio files to mp3 or ogg.
 

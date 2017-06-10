@@ -1,3 +1,6 @@
+---
+title: gPodder Documentation
+---
 
 Note: this wiki is still incomplete, you can find the missing information in the old [gpodder.org wiki](http://wiki.gpodder.org/)
 
@@ -17,6 +20,7 @@ Note: this wiki is still incomplete, you can find the missing information in the
  * Device compatibility (2.x only): [iPod Touch](ipod-touch.md), [MTP devices](mtp-devices.md)
  * Resuming Media Player for use with gPodder: [Panucci](https://github.com/gpodder/panucci)
  * How to configure [YouTube](youtube.md) support
+ * Find other pages with the [Sitemap](sitemap.md)
 
 ## For Developers
 

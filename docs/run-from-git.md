@@ -1,3 +1,7 @@
+---
+title: Run from Git
+---
+
 If you are on Linux and want to try out the latest version of gPodder, it is easy to do by cloning from Git. You only need Python, PyGTK and Git installed, all other dependencies can be installed into the Git checkout.
 
 ## Do I need `root`, compile anything or install it system-wide?

@@ -1,3 +1,7 @@
+---
+title: Reporting Download Bugs
+---
+
 This guide gives a short overview on how to send the HTTP conversation for downloads that fail due to timeouts. Please be sure to review all information that you submit, as it might contain confidential data that you don't want exposed (like passwords, etc..).
 
 How to capture

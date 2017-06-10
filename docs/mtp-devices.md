@@ -1,3 +1,7 @@
+---
+title: MTP Devices
+---
+
 MTP (Media Transfer Protocol) supports the transfer of music files on digital audio players and movie files on portable media players
 
 -   MTP info on Wikipedia: <http://en.wikipedia.org/wiki/Media_Transfer_Protocol>

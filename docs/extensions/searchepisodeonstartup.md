@@ -1,4 +1,6 @@
-### Search for new episode on startup
+---
+title: Search for new episode on startup
+---
 
 Starts the search for new episodes on startup
 

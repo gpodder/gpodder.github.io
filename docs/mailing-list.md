@@ -1,3 +1,6 @@
+---
+title: Mailing List
+---
 
 Most of the communication happens on the **gpodder** Mailing list. If you want to post to this list, you have to subscribe first (this way we prevent spam on the mailing list, and you are more likely to read the answer that is sent to the mailing list).
 

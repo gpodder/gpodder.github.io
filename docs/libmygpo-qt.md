@@ -1,3 +1,7 @@
+---
+title: libmygpo-qt
+---
+
 General
 -------
 

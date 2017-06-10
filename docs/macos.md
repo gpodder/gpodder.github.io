@@ -1,3 +1,7 @@
+---
+title: macOS
+---
+
 gPodder is now available in MacPorts for installing on Mac OS X. Thanks to **Eric Le Lay** who has created the Portfile for gPodder.
 
 Helpful resources

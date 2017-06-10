@@ -1,3 +1,7 @@
+---
+title: YouTube
+---
+
 These are instructions to subscribe to user channels in YouTube - post June 2015.
 
 Why do I need to do this?
