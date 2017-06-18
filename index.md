@@ -33,7 +33,7 @@ The latest version is {{version}}, released {{site.data.gpodder.date}}. Read the
 
 ### Get help
 
-Ask on the [mailing list](http://www.freelists.org/list/gpodder), report problems at the [issue tracker](https://github.com/gpodder/gpodder/issues) or read the [wiki](docs/).
+Ask on the [mailing list](http://www.freelists.org/list/gpodder), report problems at the [issue tracker](https://github.com/gpodder/gpodder/issues) or read the [documentation](docs/).
 
 [win]: http://sourceforge.net/projects/gpodder/files/windows/gpodder-{{site.data.windows.version}}-setup.exe/download
 [win-zip]: http://sourceforge.net/projects/gpodder/files/windows/gpodder-{{site.data.windows.version}}-win32.zip/download
