@@ -4,6 +4,18 @@ subtitle: Media aggregator and [podcast](https://en.wikipedia.org/wiki/Podcast) 
 logo: gpodder.png
 ---
 
+<style>
+ul {
+    padding-left: 10px;
+}
+
+ul li {
+    padding: 8px;
+    list-style: none;
+    color: #333;
+}
+</style>
+
 gPodder is a simple, open source podcast client written in Python using GTK+. In development since 2005 with a proven, mature codebase.
 
 {% assign version = site.data.gpodder.version %}
@@ -21,7 +33,7 @@ The latest version is {{version}}, released {{site.data.gpodder.date}}. Read the
 
 ### Get help
 
-Ask on the [mailing list](http://www.freelists.org/list/gpodder), report problems at the [issue tracker](https://github.com/gpodder/gpodder/issues) or read the [wiki](https://github.com/gpodder/gpodder/wiki).
+Ask on the [mailing list](http://www.freelists.org/list/gpodder), report problems at the [issue tracker](https://github.com/gpodder/gpodder/issues) or read the [wiki](docs/).
 
 [win]: http://sourceforge.net/projects/gpodder/files/windows/gpodder-{{site.data.windows.version}}-setup.exe/download
 [win-zip]: http://sourceforge.net/projects/gpodder/files/windows/gpodder-{{site.data.windows.version}}-win32.zip/download
