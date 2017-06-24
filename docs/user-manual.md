@@ -365,6 +365,9 @@ The audio files can be processed by gPodder before transferring them to a portab
 
 **Using the post-download script hook**
 
+**WARNING cmd_download_complete is not available anymore as of gPodder 3**
+See [issue #317](https://github.com/gpodder/gpodder/issues/317).
+
 gPodder can execute an arbitrary script after a download has finished. The script file name is set in the advanced configuration editor variable `cmd_download_complete` (available since gPodder 0.12.1). Here's an example script for processing a MP3 podcast for faster playback after it has been downloaded (making use of the **mp3faster** script from above):
 
     #!/bin/bash
