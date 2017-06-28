@@ -3,7 +3,7 @@ title: macOS
 ---
 
 gPodder is now available as:
- - a macOS Application
+ - a macOS Application (Download from [Here](../index.md#get-it)).
  - a MacPorts port (See it [there](https://www.macports.org/ports.php?by=name&substr=gpodder))
 
 If you're not already using MacPorts, the macOS application download is the recommended way to install gPodder.
