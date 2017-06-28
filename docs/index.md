@@ -2,14 +2,9 @@
 title: gPodder Documentation
 ---
 
-Note: this wiki is still incomplete, you can find the missing information in the old [gpodder.org wiki](http://wiki.gpodder.org/)
-
----
-
-## For Users
-
  * [User Manual](user-manual.md)
  * [Frequently Asked Questions](faq.md)
+ * Use the [Sitemap](sitemap.md) to find all pages
  * Support:
    * [Mailing List](mailing-list.md)
    * IRC channel: `#gpodder` on `irc.freenode.net`
@@ -20,8 +15,5 @@ Note: this wiki is still incomplete, you can find the missing information in the
  * Device compatibility (2.x only): [iPod Touch](ipod-touch.md), [MTP devices](mtp-devices.md)
  * Resuming Media Player for use with gPodder: [Panucci](https://github.com/gpodder/panucci)
  * How to configure [YouTube](youtube.md) support
- * Find other pages with the [Sitemap](sitemap.md)
-
-## For Developers
-
-Please see the old [gpodder.org wiki](http://wiki.gpodder.org/)
+ * [gPodder.net web service documentation](http://wiki.gpodder.org/w/index.php?title=Special%3APrefixIndex&prefix=Web+Services&namespace=0) (will take you to the gpodder.org wiki)
+ * All other content from the wiki is believed to have migrated here; but, in case we missed something, you can find the old wiki at [http://wiki.gpodder.org/](http://wiki.gpodder.org/)
