@@ -24,7 +24,7 @@ The latest version is {{version}}, released {{site.data.gpodder.date}}. Read the
 ### Get it
 
 -   Windows: [gPodder {{site.data.windows.version}}][win] (also as [ZIP][win-zip])<br>
-    <small>You also need to install [32-bit Python {{site.data.windows.pythonVersion}}][win-python] and [PyGTK {{site.data.windows.pygtkVersion}}][win-gtk]</small>
+    <small>You also need to install [32-bit Python 2.7.9+][win-python] and [PyGTK {{site.data.windows.pygtkVersion}}][win-gtk]</small>
 -   macOS: [gPodder {{site.data.macos.version}}][mac]<br>
     <small>Already includes Python and PyGTK</small>
 -   Linux/BSD: [Ubuntu PPA][], [AppImage][], or [run from Git][]<br>
