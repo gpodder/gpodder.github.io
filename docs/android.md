@@ -4,7 +4,7 @@ title: Android
 
 ### Third party apps
 
-see [Web Service Clients](web-service-clients.md)
+* [List of Android Clients supporting gPodder.net](http://gpoddernet.readthedocs.io/en/latest/user/clients.html#android)
 
 ### gPodder on Android
 
