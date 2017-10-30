@@ -1,6 +1,6 @@
 ---
 title: gPodder
-subtitle: Media aggregator and [podcast](https://en.wikipedia.org/wiki/Podcast) client
+subtitle: Media aggregator and podcast client
 logo: gpodder.png
 ---
 
@@ -16,7 +16,7 @@ ul li {
 }
 </style>
 
-gPodder is a simple, open source podcast client written in Python using GTK+. In development since 2005 with a proven, mature codebase.
+gPodder is a simple, open source [podcast](https://en.wikipedia.org/wiki/Podcast) client written in Python using GTK+. In development since 2005 with a proven, mature codebase.
 
 {% assign version = site.data.gpodder.version %}
 The latest version is {{version}}, released {{site.data.gpodder.date}}. Read the [release notes](http://blog.gpodder.org/).
