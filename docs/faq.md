@@ -33,7 +33,7 @@ folder in your self defined location
 How do I change the download directory from the default location and name to a custom named directory and location?
 -------------------------------------------------------------------------------------------------------------------
 
-You can find the answer in the [user manual](https://github.com/gpodder/gpodder/wiki/User-Manual#changing-the-downloads-folder-location-and-the-gpodder-home-folder).
+You can find the answer in the [user manual](user-manual.html#changing-the-downloads-folder-location-and-the-gpodder-home-folder).
 
 How do I subscribe to channels that require HTTP authentication?
 ----------------------------------------------------------------
