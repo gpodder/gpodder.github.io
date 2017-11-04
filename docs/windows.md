@@ -8,21 +8,21 @@ gPodder doesn't start!
 A number of issues have been raised related to a "PyGtk not found" dialog on Windows.
 
 Here they are, for your amusement and troubleshooting convenience:
- - #191 gpodder requires pygtk  
-   **case still open**
- - #202 Unicode path not supported for GPODDER_HOME  
+ - [#191](https://github.com/gpodder/gpodder/issues/191) gpodder requires pygtk  
+   **unsolved case**
+ - [#202](https://github.com/gpodder/gpodder/issues/202) Unicode path not supported for GPODDER_HOME  
    **title says it all**
- - #286 gPodder silently fails to start if a python27.dll without a full Python installation is found in PATH  
+ - [#286](https://github.com/gpodder/gpodder/issues/286) gPodder silently fails to start if a python27.dll without a full Python installation is found in PATH  
    **If you have nmap installed, remove it from your PATH**
- - #304 gPodder requires python 2.7  
+ - [#304](https://github.com/gpodder/gpodder/issues/304) gPodder requires python 2.7  
    **gPodder for Windows requires a 32-bit Python**
- - #305 Runtime error R6034  
+ - [#305](https://github.com/gpodder/gpodder/issues/305) Runtime error R6034  
    **presence of some version of Visual C++ might trouble gpodder**
- - #313 Cannot open gPodder because PyGTK installation not found  
+ - [#313](https://github.com/gpodder/gpodder/issues/313) Cannot open gPodder because PyGTK installation not found  
    **case still open, calling import gtk from python works**
 
 Another Windows related issue:
- - #141 gPodder unable to find Mutagen on Windows 7
+ - [#141](https://github.com/gpodder/gpodder/issues/141) gPodder unable to find Mutagen on Windows 7
    **pip install mutagen to be able to use the tagging extensions**
 
 If those issues don't satisfy you, feel free to [create your own](https://github.com/gpodder/gpodder/issues/new) ;-)
