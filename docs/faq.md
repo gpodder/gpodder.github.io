@@ -55,3 +55,9 @@ set for GTK applications. You will need to install the Gnome icon theme
 just edit \~/.gtkrc-2.0 and add the following line:
 
 `gtk-icon-theme-name = "gnome"`
+
+gPodder doesn't start and shows a dialog "PyGtk not found" on Windows
+--------------------------------------------------------------
+
+Please try uninstalling gPodder and re-installing. If it doesn't solve it,
+see the [Windows specific section](windows.md) of the documentation.
