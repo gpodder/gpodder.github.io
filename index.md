@@ -19,7 +19,7 @@ ul li {
 gPodder is a simple, open source [podcast](https://en.wikipedia.org/wiki/Podcast) client written in Python using GTK+. In development since 2005 with a proven, mature codebase.
 
 {% assign version = site.data.gpodder.version %}
-The latest version is {{version}}, released {{site.data.gpodder.date}}. Read the [release notes](https://github.com/gpodder/gpodder/releases).
+The latest version is <span id="latest-version">{{version}}</span>, released <span id="release-date">{{site.data.gpodder.date}}</span>. Read the [release notes](https://github.com/gpodder/gpodder/releases).
 
 ### Get it
 
