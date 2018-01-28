@@ -28,7 +28,7 @@ The latest version is <span id="latest-version">{{version}}</span>, released <sp
 -   macOS: [gPodder {{site.data.macos.version}}][mac]<br>
     <small>Already includes Python and PyGTK</small>
 -   Linux/BSD: In your distro, or [run from Git][]<br>
-    <small>Also available in Debian, Ubuntu, Fedora, FreeBSD Ports, ...</small>
+    <small>Available in Debian, Ubuntu, Fedora, FreeBSD Ports, ...</small>
 -   Source code: [github.com/gpodder/gpodder](https://github.com/gpodder/gpodder)
 
 ### Get help
