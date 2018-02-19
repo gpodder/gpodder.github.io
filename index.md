@@ -39,6 +39,6 @@ Ask on the [mailing list](http://www.freelists.org/list/gpodder), report problem
 [win-zip]: https://github.com/gpodder/gpodder/releases/download/{{site.data.windows.version}}/gpodder-{{site.data.windows.version}}-win32.zip
 [win-python]: https://www.python.org/ftp/python/{{site.data.windows.pythonVersion}}{{site.data.windows.pythonPatch}}/python-{{site.data.windows.pythonVersion}}{{site.data.windows.pythonPatch}}.msi
 [win-gtk]: http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/{{site.data.windows.pygtkVersion}}/pygtk-all-in-one-{{site.data.windows.pygtkVersion}}{{site.data.windows.pygtkPatch}}.win32-py{{site.data.windows.pythonVersion}}.msi
-[mac]: https://github.com/gpodder/gpodder/releases/download/{{site.data.macos.version}}/macOS-gPodder-{{site.data.macos.version}}.zip/download
+[mac]: https://github.com/gpodder/gpodder/releases/download/{{site.data.macos.version}}/macOS-gPodder-{{site.data.macos.version}}.zip
 [run from Git]: https://github.com/gpodder/gpodder/wiki/Run-from-Git
 [sourceforge]: https://sourceforge.net/projects/gpodder/files/macosx
