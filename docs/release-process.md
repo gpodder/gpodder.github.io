@@ -39,7 +39,8 @@ Release notes/website work
 - Check [Travis](https://travis-ci.org/gpodder/gpodder/builds)
   and [CircleCI](https://circleci.com/gh/gpodder/workflows/gpodder).
 - Write a post on <http://blog.gpodder.org/>
-- Copy release notes from website and post to the Mailing list
+- Copy release notes from github releases and post to the Mailing list
+- Update the versions on the [website](https://github.com/gpodder/gpodder.github.io/tree/master/_data)
 
 Debian package
 --------------
