@@ -4,8 +4,6 @@ title: The gPodder User Manual
 
 In general, the assumption is that you are running the latest version of **gPodder 3**. Things written here might not exist or work as described in older versions of gPodder. When information applies to older versions of gPodder, this will (should) be explicitly stated.
 
-## Contents
-
 * TOC
 {:toc}
 
