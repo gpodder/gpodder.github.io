@@ -69,3 +69,11 @@ table tr {
 table tr:nth-child(2n) {
 	background-color:#f6f8fa
 }
+
+pre {
+    overflow: scroll;
+}
+
+img {
+    max-width: 100%;
+}

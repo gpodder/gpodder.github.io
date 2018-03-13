@@ -1,15 +1,8 @@
 ---
-title: User Manual
+title: The gPodder User Manual
 ---
 
-The gPodder User Manual
-=======================
-
-This is a Wiki page. Feel free to contribute and make it even better :)
-
-Use Ctrl+F (Mac OS: Option+F) to search on this page in your browser.
-
-In general, the assumption is that you are running the latest version of **gPodder 3** (see the [Downloads page](http://gpodder.org/downloads)). Things written here might not exist or work as described in older versions of gPodder. When information applies to older versions of gPodder, this will (should) be explicitly stated.
+In general, the assumption is that you are running the latest version of **gPodder 3**. Things written here might not exist or work as described in older versions of gPodder. When information applies to older versions of gPodder, this will (should) be explicitly stated.
 
 ## Contents
 
@@ -18,12 +11,8 @@ In general, the assumption is that you are running the latest version of **gPodd
 
 ---
 
-gPodder is a podcatcher, i.e. an application that allows podcast feeds (RSS, Atom, Youtube, Soundcloud, Vimeo and XSPF) to be subscribed to, checks for new episodes and allows the podcast to be saved locally for later listening. This user manual covers installation, configuration and normal and advanced usage. If you feel that something is missing, feel free to contribute. Some information is outdated or only relevant for specific variants (e.g. the Maemo port). Please fix any obvious mistakes you find.
-
 Installation
 ------------
-
-You can find installation instructions and downloads links on the [Downloads page](http://gpodder.org/downloads).
 
 If you want to try the latest version, see the instructions at: [Run from Git](run-from-git.md)
 
@@ -36,9 +25,9 @@ gPodder is designed to also run directly from a source checkout (the maintainer 
 
 If you have checked out the source, but are missing dependencies, you can make the source checkout a self-contained gPodder setup with all dependencies by running:
 
--   **python tools/localdepends.py**
+-   **python3 tools/localdepends.py**
 
-This will download feedparser and mygpoclient and place them into **src/** - **bin/gpodder** and **bin/gpo** will be able to pick these modules up from there, so all you really need is Python &gt;= 2.6 on your system.
+This will download feedparser and mygpoclient and place them into **src/** - **bin/gpodder** and **bin/gpo** will be able to pick these modules up from there, so all you really need is Python &gt;= 3.5 on your system.
 
 Configuration
 -------------
@@ -259,7 +248,7 @@ With this feature enabled, if you deleted episodes from your device and then syn
 
 ![List of deleted episodes](gpodder-remove-episodes.png)
 
-- Any episodes that you choose not to delete will not be deleted on from gPodder, but will not be restored to your player. In order to sync them back to your player, you will then need to disable this feature from Devices Preferences and those episodes will be copied back at the next synch.
+Any episodes that you choose not to delete will not be deleted on from gPodder, but will not be restored to your player. In order to sync them back to your player, you will then need to disable this feature from Devices Preferences and those episodes will be copied back at the next synch.
 
 If 'Remove episodes deleted on device from gPodder' is not enabled, any episodes deleted from the device will be copied back over during the next sync. You will instead have to manually delete episodes from within gPodder itself.
 
@@ -363,28 +352,6 @@ The audio files can be processed by gPodder before transferring them to a portab
     # rename processed mp3 file to original name
     mv "$1.2.mp3" "$1"
 
-**Using the post-download script hook**
-
-**WARNING cmd_download_complete is not available anymore as of gPodder 3**
-See [issue #317](https://github.com/gpodder/gpodder/issues/317).
-
-gPodder can execute an arbitrary script after a download has finished. The script file name is set in the advanced configuration editor variable `cmd_download_complete` (available since gPodder 0.12.1). Here's an example script for processing a MP3 podcast for faster playback after it has been downloaded (making use of the **mp3faster** script from above):
-
-    #!/bin/bash
-    LOGFILE=~/.gpodder_download.log
-    date >> $LOGFILE
-    echo "url: $GPODDER_EPISODE_URL"  >> $LOGFILE
-    echo "title: $GPODDER_EPISODE_TITLE"  >> $LOGFILE
-    echo "filename: $GPODDER_EPISODE_FILENAME"  >> $LOGFILE
-    echo "pubdate: $GPODDER_EPISODE_PUBDATE"  >> $LOGFILE
-    echo "link: $GPODDER_EPISODE_LINK"  >> $LOGFILE
-    #echo "desc: $GPODDER_EPISODE_DESC"  >> $LOGFILE
-    ext=${GPODDER_EPISODE_FILENAME##*.}
-    if [ "$ext" == "mp3" ]; then
-        echo "Converting file" >> $LOGFILE
-        ~/bin/mp3faster "$GPODDER_EPISODE_FILENAME" >> $LOGFILE 2>&1
-    fi
-
 **Time Stretching on Windows**
 
 The following batch file can be used for time stretching on Windows (instead of the above two bash scripts). Note that this batch file deletes the original MP3 file (replacing it with the stretched version), it does not copy any MP3 tags to the new file (so all tags will be lost), and soundstretch and lame must be installed. Name this file speedup.bat and set `cmd_download_complete` to point to this file. In gPodder 2.14, there seems to be a problem with `cmd_download_complete` that causes every other download to fail when using this script. If you run into this problem, consider using the script below instead ("Alternate Time Stretching on Windows").
@@ -462,7 +429,6 @@ Here are the default download folder locations:
 
 -   **Linux/FreeBSD/Mac OS X:** ~/gPodder/Downloads/
 -   **Windows:** Selected via a dialog on first start (use the start menu item "gPodder (set download folder)" to change it)
--   **MeeGo 1.2 Harmattan (N9):** /home/user/MyDocs/gPodder/Downloads/
 
 If **`$GPODDER_HOME`** is not set, it defaults to `~/gPodder/`. The settings and database files will always be stored in **`$GPODDER_HOME`**.
 
@@ -488,22 +454,4 @@ An empty text file will open (you can name it whatever you want instead of *setg
 -   GPODDER\_HOME=\[path to directory you want to use\] - eg. GPODDER\_HOME=/media/BigDisk/Podcasts/
 -   GPODDER\_DOWNLOAD\_DIR=\[path to directory you want to use\]
 
-Read more on persistent environment variables in Ubuntu: <https://help.ubuntu.com/community/EnvironmentVariables#Persistent_environment_variables>
-
-#### gPodder 2 on Maemo
-
-<div style="border: 1px green solid; background-color: lightgreen; padding: 10px;">
-This section applies to **gPodder 2** on Maemo 4 and Maemo 5 **only**.
-
-</div>
-For Maemo 4 (N800 and N810), you can choose between the internal and external memory card slot. By default, the internal slot will be used. If you want to move the downloads folder, first make sure gPodder is not running. Then use the file manager to move the "gpodder" folder on your memory card to the other memory card's root directory (e.g. directly below the "memory card"). After that, restart gPodder, and it should automatically detect that you moved the download folder and use it for future downloads.
-
-Here are the default download folder locations:
-
--   **Maemo 5 (N900):** /home/user/MyDocs/Podcasts/
--   **Maemo 4 (N800/N810):** /media/mmc1/gpodder/ or /media/mmc2/gpodder/
-
-Getting support
----------------
-
-See the [support page](http://gpodder.org/documentation) for an overview of current problems, links to self-help resources and other support options (mailing lists, IRC, etc...).
+Read more on [persistent environment variables in Ubuntu](https://help.ubuntu.com/community/EnvironmentVariables#Persistent_environment_variables).
