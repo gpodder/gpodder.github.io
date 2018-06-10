@@ -23,10 +23,10 @@ The latest version is <span id="latest-version">{{version}}</span>, released <sp
 
 ### Get it
 
--   Windows: [gPodder {{site.data.windows.version}}][win] (also as [ZIP][win-zip])<br>
-    <small>You also need to install [32-bit Python 2.7.9+][win-python] and [PyGTK {{site.data.windows.pygtkVersion}}][win-gtk]</small>
+-   Windows: [gPodder {{site.data.windows.version}} installer][win] (also as [portable app][win-portable])<br>
+    <small>Already includes Python 3, Gtk 3</small>
 -   macOS: [gPodder {{site.data.macos.version}}][mac]<br>
-    <small>Already includes Python and PyGTK ([older versions on sourceforge][sourceforge])</small>
+    <small>Already includes Python 3, Gtk 3 ([older versions on sourceforge][sourceforge])</small>
 -   Linux/BSD: In your distro, or [run from Git](docs/run-from-git.md)<br>
     <small>Available in Debian, Ubuntu, Fedora, FreeBSD Ports, ...</small>
 -   Source code: [github.com/gpodder/gpodder](https://github.com/gpodder/gpodder)
@@ -37,9 +37,7 @@ The latest version is <span id="latest-version">{{version}}</span>, released <sp
 - Ask on the [mailing list](http://www.freelists.org/list/gpodder)
 - Report problems at the [issue tracker](https://github.com/gpodder/gpodder/issues)
 
-[win]: https://github.com/gpodder/gpodder/releases/download/{{site.data.windows.version}}/gpodder-{{site.data.windows.version}}-setup.exe
-[win-zip]: https://github.com/gpodder/gpodder/releases/download/{{site.data.windows.version}}/gpodder-{{site.data.windows.version}}-win32.zip
-[win-python]: https://www.python.org/ftp/python/{{site.data.windows.pythonVersion}}{{site.data.windows.pythonPatch}}/python-{{site.data.windows.pythonVersion}}{{site.data.windows.pythonPatch}}.msi
-[win-gtk]: http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/{{site.data.windows.pygtkVersion}}/pygtk-all-in-one-{{site.data.windows.pygtkVersion}}{{site.data.windows.pygtkPatch}}.win32-py{{site.data.windows.pythonVersion}}.msi
+[win]: https://github.com/gpodder/gpodder/releases/download/{{site.data.windows.version}}/windows-gpodder-{{site.data.windows.version}}-installer.exe
+[win-portable]: https://github.com/gpodder/gpodder/releases/download/{{site.data.windows.version}}/windows-gpodder-{{site.data.windows.version}}-portable.exe
 [mac]: https://github.com/gpodder/gpodder/releases/download/{{site.data.macos.version}}/macOS-gPodder-{{site.data.macos.version}}.zip
 [sourceforge]: https://sourceforge.net/projects/gpodder/files/macosx

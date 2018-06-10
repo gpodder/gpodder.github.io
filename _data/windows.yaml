@@ -1,5 +1,1 @@
-version: "3.9.6"
-pythonVersion: "2.7"
-pythonPatch: ".13"
-pygtkVersion: "2.24"
-pygtkPatch: ".2"
+version: "3.10.2"

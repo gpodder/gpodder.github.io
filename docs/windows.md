@@ -35,34 +35,10 @@ But be sure to:
  6. Open gPodder (CLI) and copy all the text in the console and include it in the description, or post a screenshot of the entire command prompt window.
 
 
-Please Note
------------
-
-These directions do not work, and they need to be updated.
-
 gPodder 3 on Windows (from Git)
 -------------------------------
 
-gPodder (&gt;= 3.0.0) will automatically install the following two dependencies when needed, but if you want, you can already pre-install these packages, so that gPodder doesn't need to download them on first start:
-
-1.  Install Python 2.7 from <http://www.python.org/>
-2.  Install the PyGTK All-in-one installer from <http://www.pygtk.org/>
-
-You can run the latest development version of gPodder on Windows using these simple instructions:
-
-1.  Install msysgit from <http://code.google.com/p/msysgit/>
-2.  Open "Git Bash" from the start menu
-    1.  `git` `clone` [`git://github.com/gpodder/gpodder`](git://github.com/gpodder/gpodder)
-    2.  `cd` `gpodder`
-    3.  `git` `checkout` `tres`
-
-3.  Get additional modules (drop these into `src/`):
-    1.  mygpoclient - <http://thp.io/2010/mygpoclient/>
-    2.  feedparser - <http://code.google.com/p/feedparser/>
-    3.  dbus - in `tools/fake-dbus-module/`
-
-4.  Copy `gpodder.exe` and `gpo.exe` from `tools/win32-launcher/` to the checkout folder
-5.  Start gPodder by running `gpodder.exe` (for the GUI) or `gpo.exe` (for the CLI)
+See the Windows installer [build documentation](https://github.com/gpodder/gpodder/blob/master/tools/win_installer/README.rst).
 
 Panucci on Windows
 ------------------
