@@ -29,7 +29,7 @@ Release notes/website work
 
 - Tag the release
     ```
-    git tag -a x.y.z -m "gPodder x.y.z release
+    git tag -a x.y.z -m "gPodder x.y.z release"
     git push --follow-tags
     ```
 - Let the CI take care of building and testing (+ uploading to Github releases -- TODO)
