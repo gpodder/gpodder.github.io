@@ -19,8 +19,13 @@ and remove the installed gpodder package if necessary. Then, install the
 newest version from your distribution or via the Download page on
 gPodder.org. If you still have problems, please file a [bug report](https://github.com/gpodder/gpodder/issues).
 
+Where are my downloaded episodes?
+------------------------------
+
+You can find the answer in the [user manual](user-manual.html#gpodder-home-folder-and-download-location).
+
 I believe my gPodder configuration is corrupted - how do I start out with a fresh config?
------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
 gPodder stores all its settings in `gPodder` under your home directory
 (e.g. `/home/yourname/gPodder/`). To restart with a fresh config, quit
@@ -30,8 +35,8 @@ lost and you can start out with a fresh config. If you changed the
 location of your download folder before you have to delete the gPodder
 folder in your self defined location
 
-How do I change the download directory from the default location and name to a custom named directory and location?
--------------------------------------------------------------------------------------------------------------------
+How do I change the download directory?
+-----------------------------------
 
 You can find the answer in the [user manual](user-manual.html#changing-the-downloads-folder-location-and-the-gpodder-home-folder).
 

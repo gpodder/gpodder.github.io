@@ -412,27 +412,37 @@ As with the script above, this batch file deletes the original MP3 file (replaci
 
     )
 
-### Changing the downloads folder location and the gPodder Home folder
+### gPodder Home Folder and Download location
 
-To change the download directory or gPodder Home, you can set one (or both) of these two environment variables:
-
--   **`GPODDER_HOME`**: Downloads will be saved in the folder "Downloads" inside the new Home folder you set
--   **`GPODDER_DOWNLOAD_DIR`**: Downloads will be saved directly in the folder you specify (which does not have to be in the gPodder Home folder)
-
-There are various ways of setting these variables, depending on your distro/operating system and on the version of gPodder you are using.
-
-#### Default settings
+#### Default gPodder Home folder
 
 Here are the default download folder locations:
 
--   **Linux/FreeBSD/Mac OS X:** ~/gPodder/Downloads/
--   **Windows:** Selected via a dialog on first start (use the start menu item "gPodder (set download folder)" to change it)
+-   **Linux/FreeBSD:** ~/gPodder/Downloads/
+-   **macOS:** ~/Library/Application Support/gPodder (access it using Cmd-Shift-g if the Library folder is hidden in Finder)
+-   **Windows installer:** Documents\gPodder
+-   **Windows portable:** gpodder-3.x.y\config
 
-If **`$GPODDER_HOME`** is not set, it defaults to `~/gPodder/`. The settings and database files will always be stored in **`$GPODDER_HOME`**.
+#### Changing the downloads folder location and the gPodder Home folder
+
+To change the download directory or gPodder Home, you can set one (or both) of these two environment variables:
+
+-   **`GPODDER_HOME`**: The settings and database files are always stored in `$GPODDER_HOME`.
+	Downloads will be saved in the folder `Downloads` inside the new Home folder you set
+-   **`GPODDER_DOWNLOAD_DIR`**: Downloads will be saved directly in the folder you specify (which does not have to be in the gPodder Home folder)
+
+
+
+There are various ways of setting these variables, depending on your distro/operating system and on the version of gPodder you are using.
+
+#### Changing the gPodder Home Folder on Windows
+
+On Windows it's also possible to set the gPodder Home folder using the registry:
+in **regedit**, add a string value named `GPODDER_HOME` to the `HKEY_CURRENT_USER\Software\gpodder.org\gPodder` key, with the absolute path you want.
 
 #### Session-wide changes on Ubuntu Linux
 
-With gPodder 3.3.0 (and also 3.4.0) in Ubuntu (at least 12.10 and 13.04), you can't change the environment variables for gPodder Home and for the download directory through Preferences &gt; Edit config (see [bug 1718](https://bugs.gpodder.org/show_bug.cgi?id=1718)). One thing you can do instead is this:
+Since gPodder 3.3.0 you can't change the environment variables for gPodder Home and for the download directory through Preferences &gt; Edit config (see [bug 1718](https://bugs.gpodder.org/show_bug.cgi?id=1718)). One thing you can do instead is this:
 
 -   Open a terminal
 -   Type: `gedit` `~/.pam_environment`
