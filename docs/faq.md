@@ -51,17 +51,7 @@ and use it to authenticate to the web server. The syntax is
 If your user name consists of an email and the authentication don't work
 you have to upgrade to gPodder 3.x
 
-There are missing icons on the gpodder interface
-------------------------------------------------
-
-This can happen if you aren't running Gnome and there isn't any theme
-set for GTK applications. You will need to install the Gnome icon theme
-(normally it's gnome-icon-theme). After that it's easy to setup though,
-just edit \~/.gtkrc-2.0 and add the following line:
-
-`gtk-icon-theme-name = "gnome"`
-
-gPodder doesn't start and shows a dialog "PyGtk not found" on Windows
+gPodder doesn't start on Windows
 --------------------------------------------------------------
 
 Please try uninstalling gPodder and re-installing. If it doesn't solve it,

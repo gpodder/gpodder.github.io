@@ -2,8 +2,39 @@
 title: Windows
 ---
 
-gPodder doesn't start!
+gPodder 3.10.x doesn't start!
 ----------------------
+
+With the new 3.10.x bundles based on python3/gtk3, a whole new set of **gPodder doesn't start**
+issues have appeared. Rest assured that they are as difficult to debug as the old ones...
+
+- [#478](https://github.com/gpodder/gpodder/issues/478)
+  **when an old zlib1.dll is laying in the C:\WINDOWS directory**
+- [#480](https://github.com/gpodder/gpodder/issues/480)
+  **unsolved case**
+
+Debugging gPodder on Windows
+-------------------------
+
+Both the portable and installer version of gPodder come with a console version for debug messages.
+To launch it:
+
+1. Choose Start > Run... or use the Win-R shortcut
+2. enter cmd and press OK
+3. navigate to the gPodder binary directory
+  (`C:\Program Files (x86)\gPodder\bin` for the installer version,
+  `gpodder-portable-x.y.z\data\bin` for the portable version)
+4. drag and drop gpodder-cmd.exe from the windows explorer to the console window
+5. add a space and `-v` to the text and press the Enter key
+
+You'll see all the debug information you want.
+
+
+gPodder 3.9.x doesn't start!
+----------------------
+
+**This section is about gPodder < 3.10.x (ie. python2/pygtk/gtk2)**
+**It doesn't apply anymore**
 
 A number of issues have been raised related to a "PyGtk not found" dialog on Windows.
 
