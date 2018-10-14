@@ -2,16 +2,10 @@
 title: Windows
 ---
 
-gPodder 3.10.x doesn't start!
-----------------------
+Changing the gPodder Home/Download Folders on Windows
+--------------------------------------
+See the [User Manual](user-manual#changing-the-downloads-folder-location-and-the-gpodder-home-folder) for background on changing the gPodder Home and Download folders.
 
-With the new 3.10.x bundles based on python3/gtk3, a whole new set of **gPodder doesn't start**
-issues have appeared. Rest assured that they are as difficult to debug as the old ones...
-
-- [#478](https://github.com/gpodder/gpodder/issues/478)
-  **when an old zlib1.dll is laying in the C:\WINDOWS directory**
-- [#480](https://github.com/gpodder/gpodder/issues/480)
-  **unsolved case**
 
 Debugging gPodder on Windows
 -------------------------
@@ -30,46 +24,11 @@ To launch it:
 You'll see all the debug information you want.
 
 
-gPodder 3.9.x doesn't start!
-----------------------
-
-**This section is about gPodder < 3.10.x (ie. python2/pygtk/gtk2)**
-**It doesn't apply anymore**
-
-A number of issues have been raised related to a "PyGtk not found" dialog on Windows.
-
-Here they are, for your amusement and troubleshooting convenience:
- - [#191](https://github.com/gpodder/gpodder/issues/191) gpodder requires pygtk  
-   **unsolved case**
- - [#202](https://github.com/gpodder/gpodder/issues/202) Unicode path not supported for GPODDER_HOME  
-   **title says it all**
- - [#286](https://github.com/gpodder/gpodder/issues/286) gPodder silently fails to start if a python27.dll without a full Python installation is found in PATH  
-   **If you have nmap installed, remove it from your PATH**
- - [#304](https://github.com/gpodder/gpodder/issues/304) gPodder requires python 2.7  
-   **gPodder for Windows requires a 32-bit Python**
- - [#305](https://github.com/gpodder/gpodder/issues/305) Runtime error R6034  
-   **presence of some version of Visual C++ might trouble gpodder**
- - [#313](https://github.com/gpodder/gpodder/issues/313) Cannot open gPodder because PyGTK installation not found  
-   **case still open, calling import gtk from python works**
-
-Another Windows related issue:
- - [#141](https://github.com/gpodder/gpodder/issues/141) gPodder unable to find Mutagen on Windows 7
-   **pip install mutagen to be able to use the tagging extensions**
-
-If those issues don't satisfy you, feel free to [create your own](https://github.com/gpodder/gpodder/issues/new) ;-)
-But be sure to:
- 1. Open a command prompt (`cmd`)
- 2. Type `python --version` and hit Enter
- 3. Type `python` and hit Enter
- 4. Type `import gtk` and hit Enter
- 5. Copy all the text and include it in the description, or post a screenshot of the entire command prompt window.
- 6. Open gPodder (CLI) and copy all the text in the console and include it in the description, or post a screenshot of the entire command prompt window.
-
-
 gPodder 3 on Windows (from Git)
 -------------------------------
 
 See the Windows installer [build documentation](https://github.com/gpodder/gpodder/blob/master/tools/win_installer/README.rst).
+
 
 Panucci on Windows
 ------------------
@@ -92,8 +51,11 @@ Alternatively, do the first 5 steps from above, make sure that Python is availab
 
 **Additional hint:** If you want to have proper Windows themeing, copy `share/themes/MS-Windows/gtk-2.0/gtkrc` to `etc/gtk-2.0/` in the folder where you installed GTK+.
 
+
 MP3 Synchronization
 -------------------
+
+**Warning: this section has not been updated for gPodder 3.10.0 and later!**
 
 This is some hackery to get synchronization for an MP3 player to work
 

@@ -431,9 +431,10 @@ To change the download directory or gPodder Home, you can set one (or both) of t
 	Downloads will be saved in the folder `Downloads` inside the new Home folder you set
 -   **`GPODDER_DOWNLOAD_DIR`**: Downloads will be saved directly in the folder you specify (which does not have to be in the gPodder Home folder)
 
+There are various ways of setting these variables, depending on your distro/operating system:
+ - on Windows 10, see e.g. [this superuser question](https://superuser.com/a/949577);
+ - on Linux and macOS, read [this Ubuntu documentation](https://help.ubuntu.com/community/EnvironmentVariables).
 
-
-There are various ways of setting these variables, depending on your distro/operating system and on the version of gPodder you are using.
 
 #### Changing the gPodder Home Folder on Windows
 
