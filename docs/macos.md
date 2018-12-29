@@ -24,4 +24,10 @@ You’ll see all the debug information you want.
 Building the macOS application yourself
 -----------------------------------
 
-Code to generate the macOS application is hosted [here](https://github.com/elelay/gpodder-osx-bundle).
+Code to generate the macOS application is hosted [here](https://github.com/gpodder/gpodder-osx-bundle).
+
+Old (3.9.x) Versions
+------------------
+
+macOS releases were first hosted on sourceforge .
+See the archive [here](https://sourceforge.net/projects/gpodder/files/macosx).

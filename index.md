@@ -26,10 +26,11 @@ The latest version is <span id="latest-version">{{version}}</span>, released <sp
 -   Windows: [gPodder {{site.data.windows.version}} installer][win] (also as [portable app][win-portable])<br>
     <small>Already includes Python 3, Gtk 3</small>
 -   macOS: [gPodder {{site.data.macos.version}}][mac]<br>
-    <small>Already includes Python 3, Gtk 3 ([older versions on sourceforge][sourceforge])</small>
+    <small>Already includes Python 3, Gtk 3</small>
 -   Linux/BSD: In your distro, or [run from Git](docs/run-from-git.md)<br>
     <small>Available in Debian, Ubuntu, Fedora, FreeBSD Ports, ...</small>
 -   Source code: [github.com/gpodder/gpodder](https://github.com/gpodder/gpodder)
+-   Older releases are available from [github][releases].
 
 ### Get help
 
@@ -40,4 +41,4 @@ The latest version is <span id="latest-version">{{version}}</span>, released <sp
 [win]: https://github.com/gpodder/gpodder/releases/download/{{site.data.windows.version}}/windows-gpodder-{{site.data.windows.version}}-installer.exe
 [win-portable]: https://github.com/gpodder/gpodder/releases/download/{{site.data.windows.version}}/windows-gpodder-{{site.data.windows.version}}-portable.exe
 [mac]: https://github.com/gpodder/gpodder/releases/download/{{site.data.macos.version}}/macOS-gPodder-{{site.data.macos.version}}.zip
-[sourceforge]: https://sourceforge.net/projects/gpodder/files/macosx
+[releases]: https://github.com/gpodder/gpodder/releases
