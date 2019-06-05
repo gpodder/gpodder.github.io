@@ -306,7 +306,7 @@ If you have got problems with episode downloads, please follow the instructions 
 
 ### Time stretching (making playback slower or faster)
 
-Making playback slower or faster is generally called [time stretching](http://en.wikipedia.org/wiki/Audio_timescale-pitch_modification). There are certain algorithms that maintain the original pitch so that you're favorite podcast speaker doesn't sound like donald duck after being processed. It is a great time saver to listen to podcasts with a faster playback speed. You easily listen to most speakers with 45% speed up and after your used to it, even 70% speed up is understandable.
+Making playback slower or faster is generally called [time stretching](http://en.wikipedia.org/wiki/Audio_timescale-pitch_modification). There are certain algorithms that maintain the original pitch so that you're favorite podcast speaker doesn't sound like donald duck after being processed. It is a great time saver to listen to podcasts with a faster playback speed. You easily listen to most speakers with 45% speed up and after you're used to it, even 70% speed up is understandable.
 
 The audio files can be processed by gPodder before transferring them to a portable device. The following is a script for speeding up a single mp3 file by 45%:
 
