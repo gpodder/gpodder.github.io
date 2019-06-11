@@ -2,6 +2,14 @@
 title: Windows
 ---
 
+Supported Version
+---------------
+
+gPodder is tested on **Windows 10**, but it should also work on Windows 7 and later.
+
+gPodder 3.10.9 and later is [known](https://www.freelists.org/post/gpodder/gpodder-Digest-V9-17)
+not to work on Windows XP.
+
 Changing the gPodder Home/Download Folders on Windows
 --------------------------------------
 See the [User Manual](user-manual#changing-the-downloads-folder-location-and-the-gpodder-home-folder) for background on changing the gPodder Home and Download folders.
