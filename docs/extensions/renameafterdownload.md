@@ -4,7 +4,7 @@ title: Rename episode after the download
 
 Rename episodes to "<Episode Title>.<ext>" on download
 
-Configuration options ([in Git as of 2015-09-29](https://github.com/gpodder/gpodder/commit/bf31b911b6e9717ea3c7d42a36fd71f8899c193a)):
+Configuration options:
 
 -   `add_sortdate` - If enabled, will add the sortdate of the episode (YYYY-MM-DD) at the front of the filename
 -   `add_podcast_title` - If enabled, will add the podcast title at the front of the filename

@@ -4,6 +4,7 @@ title: Extensions
 
 Extensions are gPodder's mechanism for adding optional features and allowing easy customizability. Some extensions are already activated by default if you are running a specific environment (e.g. Ubuntu Unity support in gPodder 3 is implemented as an extension).
 
+
 ### Default Extensions Included With gPodder
 
 The following extensions are included with gPodder 3:
@@ -28,11 +29,66 @@ The following extensions are included with gPodder 3:
 -   [**Video Converter**] - Transcode video files to avi/mp4/m4v
 -   [**MPRIS Listener**] - listen to notifications from MPRIS-capable players and translate them to gPodder's [Media Player D-Bus API]
 
+
 ### How To Write Your Own Extension
 
-*TODO*
+Extensions are a great way to customize your gPodder workflow: you'll be able to customize the UI, rename, modify or trigger
+external programs when episodes are downloaded, etc..
 
-[hello world extension example]
+
+#### Getting started
+
+1. Extensions are loaded from the `Extensions` folder in the [gPodder Home Folder](#default-gpodder-home-folder).
+The folder doesn't exist by default, so create it.
+
+2. An example extension is available [here](https://github.com/gpodder/gpodder/blob/master/share/gpodder/examples/hello_world.py).
+   Copy it to **GPODDER\_HOME/Extensions** and restart gPodder.
+
+3. Extensions are activated from the **Extensions** pane of the **Preferences** dialog.
+   Activate the **Hello World Extension** to get a item in the **Extras** menu called
+   **Say Hello**.
+
+4. Modify the `Message`, restart gPodder and see the updated notification when you click **Say Hello**.
+
+
+#### Doing something useful
+
+Maybe an existing extension does something similar to what you want
+([rename after download](https://github.com/gpodder/gpodder/blob/master/share/gpodder/extensions/rename_download.py),
+[tagging](https://github.com/gpodder/gpodder/blob/master/share/gpodder/extensions/tagging.py),
+[run a command after download](https://github.com/gpodder/gpodder/blob/master/share/gpodder/extensions/command_on_download.py), ...).
+Find inspiration in [its source code](https://github.com/gpodder/gpodder/tree/master/share/gpodder/extensions).
+
+To see how an extension is loaded and every available callback, take a look at [extensions.py](https://github.com/gpodder/gpodder/blob/master/src/gpodder/extensions.py);
+every method annotated with `@call_extensions` can be overriden in your extension. Check its parameters and return type.
+
+gPodder's [model](https://github.com/gpodder/gpodder/blob/master/src/gpodder/model.py#L197) is quite straightforward.
+Given an episode `e`:
+ - get its title via `e.title`, its url via `e.url`
+ - get the channel's subscription url via `e.channel.url`.
+
+
+#### Debugging your extension
+
+If your extension doesn't appear in the list,
+be sure:
+  - that its `__only_for__` or `__disable_in__` instructions (if any) apply to your system.
+  - to run gpodder in debug mode (`gpodder -v`, [Windows](https://gpodder.github.io/docs/windows.html#debugging-gpodder-on-windows))
+  and check that it's found and there isn't any error message:
+```
+[gpodder.extensions] DEBUG: Found extension "hello_world" in .../Extensions/hello_world.py
+[gpodder.extensions] INFO: Module loaded: .../Extensions/hello_world.py
+
+```
+
+You should run `gpodder -v` anyway, because any log with lower priority than `logger.warn` is suppressed by default.
+
+Feel free to ask for advice in the [mailing list](mailing-list) or as github issues:
+we are always pleased to see you customize gPodder to your own needs.
+
+Also, you may have to modify code in gPodder itself to achieve a particular goal.
+This is OK: no need to recompile anything: just edit the **.py** and restart...
+
 
 [**Audio Converter**]: extensions/audioconverter.md
 [**Enqueue in media players**]: extensions/enqueueinmediaplayer.md
