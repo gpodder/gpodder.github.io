@@ -294,15 +294,22 @@ If you want to use a proxy for gPodder, but don't want to use a proxy for other 
     gpodder
 
 
-### Using Yahoo! Pipes to fix feeds
+### Using pipes.digital to fix feeds
 
-There might be some problems with feeds (see [the related bug report](https://bugs.gpodder.org/show_bug.cgi?id=528)) - to fix it, you can try to use Yahoo Pipes:
+There might be some problems with feeds (see [the related bug report](https://bugs.gpodder.org/show_bug.cgi?id=528)) - to fix it,
+you can try to use <a href="https://www.pipes.digital">Pipes</a>.
 
-1.  Create a new pipe with the problematic feed as source
-2.  Make no transformation
-3.  Use the RSS output of the resulting pipe in gPodder
+1.  Create a new pipe with the problematic feed as source;
+2.  Connect to `Out`;
+3.  Use the feed preview of the resulting pipe in gPodder
 
-See a [screenshot of the pipe source](http://i29.tinypic.com/6gyauu.jpg) to get an idea of how it should look like.
+See [this pipe for a not broken feed](https://www.pipes.digital/pipe/1N5Aa3Ng) to get an idea of how it should look like.
+
+This service is not afiliated to gPodder in any way.
+It requires an email registration and currently free for only 3 pipes per user.
+*Maybe a better or free service exists. If so, please let us know!*
+
+Original idea used the now defunct *Yahoo! Pipes* service.
 
 ### Reporting download problems
 
