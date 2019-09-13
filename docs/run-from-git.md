@@ -13,6 +13,7 @@ As gPodder is written in Python, there is no need to compile anything or to inst
 * Gtk3
 * Python 3
 * PyGObject 3
+* python bindings: gir1.2-gtk-3.0 python3-cairo python3-gi-cairo on Debian
 * Git
 
 ## Instructions
