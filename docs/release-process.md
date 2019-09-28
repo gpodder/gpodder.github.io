@@ -40,7 +40,7 @@ Release notes/website work
 
 - Tag the release
     ```
-    git tag -a x.y.z -m "gPodder x.y.z release" x.y.z
+    git tag -a -m "gPodder x.y.z release" x.y.z
     git push --follow-tags
     ```
 - Let the CI take care of building and testing:
