@@ -28,6 +28,7 @@ The following extensions are included with gPodder 3:
 -   [**Search for new episodes on startup**] - Starts the search for new episodes on startup
 -   [**Video Converter**] - Transcode video files to avi/mp4/m4v
 -   [**MPRIS Listener**] - listen to notifications from MPRIS-capable players and translate them to gPodder's [Media Player D-Bus API]
+-   [**Youtube_dl**] - manage youtube subscriptions and download episodes using [youtube_dl]
 
 
 ### How To Write Your Own Extension
@@ -101,3 +102,4 @@ This is OK: no need to recompile anything: just edit the **.py** and restart...
 [**MPRIS Listener**]: extensions/mprislistener.md
 [Media Player D-Bus API]: https://github.com/gpodder/gpodder/commit/ab48ea24f29a3d237396848520d27b3dba23635d
 [hello world extension example]: https://github.com/gpodder/gpodder/blob/master/share/gpodder/examples/hello_world.py
+[youtube_dl]: http://ytdl-org.github.io/youtube-dl/
