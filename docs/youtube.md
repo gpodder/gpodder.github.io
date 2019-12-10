@@ -7,7 +7,7 @@ These are instructions to subscribe to user channels in YouTube - post June 2015
 Why do I need to do this?
 -------------------------
 
-There is no more transparent relation between user name and RSS feed. gPodder needs to use the google YouTube API to convert the user name (e.g. *Pentadact*) to an RSS feed (e.g. <https://www.youtube.com/feeds/videos.xml?channel_id=UCQ-twzO6v-PBgckhkrXVaDQ>). To do so, it must provide an API key to google to be granted access to the API. There are quotas in place for each key, so the gPodder devs can't simply give a key for everyone to use. Everyone has to get his own.
+There is no more transparent relation between user name and RSS feed. gPodder needs to use the google YouTube API to convert the user name (e.g. *Pentadact*) to an RSS feed (e.g. <https://www.youtube.com/feeds/videos.xml?channel_id=UCQ-twzO6v-PBgckhkrXVaDQ>). To do so, it must provide an API key to google to be granted access to the API. There are quotas in place for each key, so the gPodder devs can't simply give a key for everyone to use. Everyone has to get his/her/there own.
 
 How do I do it ?
 ----------------
