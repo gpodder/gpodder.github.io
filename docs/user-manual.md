@@ -376,3 +376,30 @@ An empty text file will open (you can name it whatever you want instead of *setg
 
 Read more on [persistent environment variables in Ubuntu](https://help.ubuntu.com/community/EnvironmentVariables#Persistent_environment_variables).
 
+#### Changing the gPodder Home Folder on macOS
+
+##### Using symbolic links
+
+This is the permanent way to change gPodder's home or downloads location:
+ 1. run gPodder and quit it; it will create the `~/Library/Application Support/gPodder` folder;
+ 2. run **Applications** > **Utilities** > **Terminal**
+ 3. move the gPodder folder where you want (here I move it to my home directory under a new name):
+
+ 	mv "~/Library/Application Support/gPodder" ~/gPodderData
+
+ 4. create a symbolic link from the default location to the new one:
+
+ 	ln -s ~/gPodderData "~/Library/Application Support/gPodder"
+
+gPodder will now use `~/gPodderData` to store settings and subscriptions.
+
+##### Using environment variables
+
+If you don't want to use symbolic links, you have to set environment variables for gPodder to know where to store data.
+
+Setting environment variables in your `.profile` doesn't apply to gPodder.app. You have to edit the launcher to set these variables.
+
+ 1. right-click gPodder.app in the Finder and select `Show Package Contents`
+ 2. navigate to **Contents** > **Resources**
+ 3. right-click **launcher.py** and select **Open With** > **Text Edit**
+ 4. modify the block starting with *To override gPodder home and/or download directory* as explained there
