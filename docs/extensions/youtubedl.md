@@ -56,7 +56,7 @@ to false.
 | setting                                   | value          | description                                                                   |
 |-------------------------------------------|----------------|-------------------------------------------------------------------------------|
 | extensions.youtube-dl.manage_channels     | **true**/false | false to use Youtube's RSS feed (faster but only 15 episodes)                 |
-| extensions.audio\_converter.use\_ogg      | **true**/false | false to download using built-in class (if youtube-dl doesn't work)           |
+| extensions.youtube-dl.manage_downloads    | **true**/false | false to download using built-in class (if youtube-dl doesn't work)           |
 
 Links:
 
