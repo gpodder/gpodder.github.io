@@ -274,6 +274,43 @@ Once an episode has been archived, gPodder will do its best to never delete it:
 -   If auto-cleaning is enabled, archived episdoes will not be cleaned.
 -   When selecting multiple episodes, deleting the selected episodes will (should) keep any archived ones.
 
+### Searching in your podcasts or episodes
+
+There are two ways to initiate a search: focus the Podcasts (resp. Episodes) list and start typing
+or activate the *Podcasts* (resp. Episodes) *>* *Find Podcast* menu item.
+
+<p style="color: red">FIXME: menu items are only available in master branch of the code</p>
+
+You can then enter parts of the title or description to search for.
+
+**Episodes** can also be queried in more advanced syntax:
+
+Use **regular expressions** by surrounding your query with **slashes**:
+
+ - `/[áéíñóúüÁÉÍÑÓÚÜ]/`  
+   for title or description containing Spanish letters
+
+
+Arbitrary complex **python expressions** (surround them with **parenthesis**) can also be used,
+following the Adjectives `(downloaded)` and Nouns `('hello' in description)` vocabulary
+defined in [query.py](https://github.com/gpodder/gpodder/blob/master/src/gpodder/query.py#L47).
+
+Here are a few examples:
+
+ - `(finished and not deleted)`  
+   for episodes you fully listened to but didn't remove (yet?)
+ - `(downloaded and not played and age > 7)`  
+   for episodes published more than one week ago that you downloaded and didn't play yet
+ - `(downloaded and 'winter' in title)`  
+   for downloaded episodes containing *winter* in their title.
+ - `(min > 60)`  
+   for more than one hour long episodes
+ - `((100 * rem / min) > 95)`  
+   for episodes you just started listening (more than 95% remains to be played).
+
+
+
+
 Advanced topics
 ---------------
 
