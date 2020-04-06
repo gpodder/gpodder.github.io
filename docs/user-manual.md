@@ -305,8 +305,8 @@ Here are a few examples:
    for downloaded episodes containing *winter* in their title.
  - `(min > 60)`  
    for more than one hour long episodes
- - `((100 * rem / min) > 95)`  
-   for episodes you just started listening (more than 95% remains to be played).
+ - `(rem < min and rem > .95 * min)`  
+   for episodes you just started listening to (more than 95% remains to be played).
 
 
 
