@@ -37,7 +37,11 @@ After you have got the dump file on your Desktop computer, install [Wireshark](h
 
 ` http.user_agent contains "gPodder"`
 
-and hit enter. This should leave you with one or more HTTP GET requests in the packet list. Pick the one that is the buggy download, right-click on it and select **Follow TCP stream**. This will open a window that shows the HTTP conversation between gPodder and the server. Click on **Save as** and select a nice name. Open the resulting file in a text editor and trim all the data that is not necessary (there are normally two plaintext blocks that are the request and response headers; after that the data follows; the data is mostly not needed, the headers are the interesting part). See [this screenshot](http://khan.thpinfo.com/~thp/images/follow-tcp-stream.png) to see how the request and response headers look like.
+and hit enter. This should leave you with one or more HTTP GET requests in the packet list. Pick the one that is the buggy download, right-click on it and select **Follow TCP stream**. This will open a window that shows the HTTP conversation between gPodder and the server. Click on **Save as** and select a nice name. Open the resulting file in a text editor and trim all the data that is not necessary (there are normally two plaintext blocks that are the request and response headers; after that the data follows; the data is mostly not needed, the headers are the interesting part).
+
+The following screenshot illustrates how the request and response headers look like:
+
+![Example "Follow TCP Stream" output](follow-tcp-stream.png)
 
 Reporting the bug
 -----------------
