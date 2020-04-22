@@ -29,6 +29,8 @@ The latest version is <span id="latest-version">{{version}}</span>, released <sp
     <small>Already includes Python 3, Gtk 3</small>
 -   Linux/BSD: In your distro, or [run from Git](docs/run-from-git.md)<br>
     <small>Available in Debian, Ubuntu, Fedora, FreeBSD Ports, ...</small>
+-   Sailfish OS: from [OpenRepos](https://openrepos.net/content/keeperofthekeys/gpodder)<br>
+    <small>a flavor of gPodder for mobiles running Sailfish OS 1.0.4.20 or later.</small>
 -   Source code: [github.com/gpodder/gpodder](https://github.com/gpodder/gpodder)
 -   Older releases are available from [github][releases].
 
