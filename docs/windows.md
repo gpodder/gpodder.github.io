@@ -75,10 +75,28 @@ This is some hackery to get synchronization for an MP3 player to work
 <http://www.vorbis.com/files/1.0.1/windows/vorbis-tools-1.0.1-win32.zip> in the bin directory.
 
 
+Switching to a dark theme variant
+---------------------------------
+
+To use a dark theme variant, add the `gtk-application-prefer-dark-theme = true` line to your `settings.ini`:
+
+ 1. Locate the `etc\gtk-3.0\settings.ini` file in your gPodder installation (for instance `C:\gpodder-3.10.3-portable\data\etc\gtk-3.0\settings.ini`);
+ 2. open it with notepad;
+ 3. add a new line reading `gtk-application-prefer-dark-theme = true`
+
+Example settings.ini:
+
+```
+[Settings]
+gtk-font-name = Segoe UI 10
+gtk-application-prefer-dark-theme = true
+```
+
+
 Changing the theme
 ------------------
 
-It is possible to switch gPodder to, for instance, a **dark theme**
+It is possible to switch gPodder to any Gtk3-compatible theme
 by copying it to C:\Users\YOUR_USER\.themes and referencing it by name in GPODDER_INSTALL_DIR\etc\gtk-3.0\settings.ini.
 
 For instance, to use the low contrast theme Equilux:
