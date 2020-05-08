@@ -10,24 +10,25 @@ Extensions are gPodder's mechanism for adding optional features and allowing eas
 The following extensions are included with gPodder 3:
 
 -   [**Audio Converter**] - Transcode audio files to mp3/ogg
--   [**Enqueue in media players**] - Add a context menu item for enqueueing episodes in installed media players
--   **Gtk Status Icon** - Show a status icon for Gtk-based Desktops
--   **Minimize on start** - Minimizes the gPodder window on startup.
--   [**Normalize audio with re-encoding**] - Normalize the volume of audio files with normalize-audio
--   **Gtk+ Desktop Notifications** - Display notification bubbles for different events.
--   **Notification Bubbles for Windows** - 'Display notification bubbles for different events. (added in git master branch)
--   [**Rename episodes after download**] - Rename episodes to “<Episode Title>.<ext>” on download
--   [**Remove cover art from OGG files**] - removes coverart from all downloaded ogg files
 -   **Convert video files to MP4 for Rockbox** - Converts all videos to a Rockbox-compatible format
+-   [**Enqueue in media players**] - Add a context menu item for enqueueing episodes in installed media players
+-   [**Filter episodes**] - to prevent automatic download of episodes matching a pattern, useful for mixed feeds
+-   **Gtk Status Icon** - Show a status icon for Gtk-based Desktops
+-   **Gtk+ Desktop Notifications** - Display notification bubbles for different events.
+-   **Minimize on start** - Minimizes the gPodder window on startup.
+-   [**MPRIS Listener**] - listen to notifications from MPRIS-capable players and translate them to gPodder's [Media Player D-Bus API]
+-   [**Normalize audio with re-encoding**] - Normalize the volume of audio files with normalize-audio
+-   **Notification Bubbles for Windows** - 'Display notification bubbles for different events. (added in git master branch)
+-   [**Remove cover art from OGG files**] - removes coverart from all downloaded ogg files
+-   [**Rename episodes after download**] - Rename episodes to “<Episode Title>.<ext>” on download
+-   [**Search for new episodes on startup**] - Starts the search for new episodes on startup
 -   **Sonos** - Stream podcasts to Sonos speakers
+-   **Subtitle Downloader for TED Talks** - Downloads .srt subtitles for TED Talks Videos
 -   [**Tag downloaded files using Mutagen**] - Add episode and podcast titles to MP3/OGG tags
 -   **Taskbar Progress** - Displays the progress on the Windows taskbar
--   **Subtitle Downloader for TED Talks** - Downloads .srt subtitles for TED Talks Videos
 -   **Ubuntu App Indicator** - Show a status indicator in the top bar.
 -   **Ubuntu Unity Integration** - Show download progress in the Unity Launcher icon.
--   [**Search for new episodes on startup**] - Starts the search for new episodes on startup
 -   [**Video Converter**] - Transcode video files to avi/mp4/m4v
--   [**MPRIS Listener**] - listen to notifications from MPRIS-capable players and translate them to gPodder's [Media Player D-Bus API]
 -   [**Youtube_dl**] - enhanced youtube subscriptions and downloads using youtube-dl
 
 
@@ -93,6 +94,7 @@ This is OK: no need to recompile anything: just edit the **.py** and restart...
 
 [**Audio Converter**]: extensions/audioconverter.md
 [**Enqueue in media players**]: extensions/enqueueinmediaplayer.md
+[**Filter Episodes**]: extensions/filter.md
 [**Normalize audio with re-encoding**]: extensions/normalizeaudio.md
 [**Rename episodes after download**]: extensions/renameafterdownload.md
 [**Remove cover art from OGG files**]: extensions/removeoggcover.md
