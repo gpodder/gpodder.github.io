@@ -73,3 +73,22 @@ This is some hackery to get synchronization for an MP3 player to work
 -   To read OGG tags, install Vorbis Tools
 
 <http://www.vorbis.com/files/1.0.1/windows/vorbis-tools-1.0.1-win32.zip> in the bin directory.
+
+
+Changing the theme
+------------------
+
+It is possible to switch gPodder to, for instance, a **dark theme**
+by copying it to C:\Users\YOUR_USER\.themes and referencing it by name in GPODDER_INSTALL_DIR\etc\gtk-3.0\settings.ini.
+
+For instance, to use the low contrast theme Equilux:
+
+ 1. I created a .themes folder in my user directory C:\Users\IEUser
+ 2. I downloaded [Equilux-compact.tar.xz](https://www.pling.com/p/1182169/) and extracted in C:\Users\IEUser\.themes
+ 3. I edited `C:\gpodder-3.10.3-portable\data\etc\gtk-3.0\settings.ini` to look like this:
+
+```
+[Settings]
+gtk-font-name = Segoe UI 10
+gtk-theme-name = Equilux-compact
+```
