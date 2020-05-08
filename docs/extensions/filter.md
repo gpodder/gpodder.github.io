@@ -24,3 +24,24 @@ immediately, without needing to update the channel.
 Links:
 
 -   [Extension Source](https://github.com/gpodder/gpodder/blob/master/share/gpodder/extensions/filter.py)
+
+
+Configuration Reference:
+
+| setting                                   | value      | description                                                                   |
+|-------------------------------------------|------------|-------------------------------------------------------------------------------|
+| extensions.filter.filters                 | array      | add an entry per configured podcast                                           |
+
+Configuration example:
+
+To allow only episodes containing *On va Déguster XXL* in this feed, block
+everything except those matching:
+
+```json
+{
+  "allow": "On Va Déguster XXL",
+  "allow_re": true,
+  "block": "",
+  "url": "http://radiofrance-podcast.net/podcast09/rss_11370.xml"
+}
+```
