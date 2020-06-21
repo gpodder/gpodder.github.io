@@ -279,8 +279,6 @@ Once an episode has been archived, gPodder will do its best to never delete it:
 There are two ways to initiate a search: focus the Podcasts (resp. Episodes) list and start typing
 or activate the *Podcasts* (resp. Episodes) *>* *Find Podcast* menu item.
 
-<p style="color: red">FIXME: menu items are only available in master branch of the code</p>
-
 You can then enter parts of the title or description to search for.
 
 **Episodes** can also be queried in more advanced syntax:
@@ -301,13 +299,14 @@ Here are a few examples:
    for episodes you fully listened to but didn't remove (yet?)
  - `(downloaded and not played and age > 7)`  
    for episodes published more than one week ago that you downloaded and didn't play yet
- - `(downloaded and 'winter' in title)`  
-   for downloaded episodes containing *winter* in their title.
+ - `(downloaded and s('winter', title))`  
+   for downloaded episodes containing *winter* in their title (case-insensitive).
  - `(min > 60)`  
    for more than one hour long episodes
  - `(rem < min and rem > .95 * min)`  
    for episodes you just started listening to (more than 95% remains to be played).
-
+ - `(section == 'Audio')`  
+   to only show the *Video* section
 
 
 
