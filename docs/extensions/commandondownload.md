@@ -40,6 +40,8 @@ Check the extension's code for the most up to date list, but there are curently:
 - **section**: podcast section
 - **title**: episode title
 
+Environment variables are accessed with a dollar sign (`$filename`) on Linux, or two percent signs (`%filename%`) on Windows.
+
 
 Example Commands
 --------------
