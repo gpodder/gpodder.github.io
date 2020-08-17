@@ -4,13 +4,13 @@ title: macOS
 
 gPodder is now available as:
  - a macOS Application (Download from [Here](../index.md#get-it)).
- - a MacPorts port (See it [there](https://www.macports.org/ports.php?by=name&substr=gpodder))
+ - Homebrew Cask
 
-If you're not already using MacPorts, the macOS application download is the recommended way to install gPodder.
+If you're not already using Homebrew, the macOS application download is the recommended way to install gPodder.
 
 Simply double-click to unzip the application, then copy `gPodder.app` to your `/Applications` folder.
 
-Otherwise, using MacPorts, run `sudo port install gpodder +quartz`
+Otherwise, using Homebrew, run `brew cask install gpodder; xattr -d com.apple.quarantine /Applications/gPodder.app`
 
 Debugging gPodder on macOS
 -------------------------
