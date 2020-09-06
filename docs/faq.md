@@ -56,3 +56,15 @@ gPodder doesn't start on Windows
 
 Please try uninstalling gPodder and re-installing. If it doesn't solve it,
 see the [Windows specific section](windows.md) of the documentation.
+
+
+I get I/O errors using the Flatpak package
+------------------------------------------
+
+Flatpak uses special sandboxing for security reasons, you can override the
+sandbox to be able to write into different folders. In this example, the
+download folder is under `/DataDiskA` and you also want to allow writing to
+any removable media (e.g. MP3 players) under `/media/myuser`:
+
+    flatpak override --user --filesystem=/DataDiskA org.gpodder.gpodder
+    flatpak override --user --filesystem=/media/myuser org.gpodder.gpodder
