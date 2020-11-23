@@ -18,7 +18,7 @@ The following extensions are included with gPodder 3:
 -   **Minimize on start** - Minimizes the gPodder window on startup.
 -   [**MPRIS Listener**] - listen to notifications from MPRIS-capable players and translate them to gPodder's [Media Player D-Bus API]
 -   [**Normalize audio with re-encoding**] - Normalize the volume of audio files with normalize-audio
--   **Notification Bubbles for Windows** - 'Display notification bubbles for different events. (added in git master branch)
+-   **Notification Bubbles for Windows** - 'Display notification bubbles for different events.
 -   [**Remove cover art from OGG files**] - removes coverart from all downloaded ogg files
 -   [**Rename episodes after download**] - Rename episodes to “<Episode Title>.<ext>” on download
 -   [**Search for new episodes on startup**] - Starts the search for new episodes on startup
