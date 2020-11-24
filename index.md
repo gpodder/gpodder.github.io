@@ -27,7 +27,7 @@ The latest version is <span id="latest-version">{{version}}</span>, released <sp
     <small>Already includes Python 3, Gtk 3</small>
 -   macOS: [gPodder {{site.data.macos.version}}][mac]<br>
     <small>Already includes Python 3, Gtk 3</small>
--   Linux/BSD: In your distro, as [Flatpak](https://flathub.org/apps/details/org.gpodder.gpodder) or [run from Git](docs/run-from-git.md)<br>
+-   Linux/BSD: In your distro, as [Flatpak][flatpak], [Ubuntu ppa][ppa] or [run from Git](docs/run-from-git.md)<br>
     <small>Available in Debian, Ubuntu, Fedora, FreeBSD Ports, ...</small>
 -   Sailfish OS: from [OpenRepos](https://openrepos.net/content/keeperofthekeys/gpodder)<br>
     <small>a flavor of gPodder for mobiles running Sailfish OS 1.0.4.20 or later.</small>
@@ -44,3 +44,5 @@ The latest version is <span id="latest-version">{{version}}</span>, released <sp
 [win-portable]: https://github.com/gpodder/gpodder/releases/download/{{site.data.windows.version}}/windows-gpodder-{{site.data.windows.version}}-portable.exe
 [mac]: https://github.com/gpodder/gpodder/releases/download/{{site.data.macos.version}}/macOS-gPodder-{{site.data.macos.version}}.zip
 [releases]: https://github.com/gpodder/gpodder/releases
+[ppa]: https://launchpad.net/~gpodder/+archive/ubuntu/ppa
+[flatpak]: https://flathub.org/apps/details/org.gpodder.gpodder
