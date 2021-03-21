@@ -19,6 +19,7 @@ The following extensions are included with gPodder 3:
 -   [**MPRIS Listener**] - listen to notifications from MPRIS-capable players and translate them to gPodder's [Media Player D-Bus API]
 -   [**Normalize audio with re-encoding**] - Normalize the volume of audio files with normalize-audio
 -   **Notification Bubbles for Windows** - 'Display notification bubbles for different events.
+-   [**OPDS support**] - subscribe to ebook feeds
 -   [**Remove cover art from OGG files**] - removes coverart from all downloaded ogg files
 -   [**Rename episodes after download**] - Rename episodes to “<Episode Title>.<ext>” on download
 -   [**Search for new episodes on startup**] - Starts the search for new episodes on startup
@@ -96,6 +97,7 @@ This is OK: no need to recompile anything: just edit the **.py** and restart...
 [**Enqueue in media players**]: extensions/enqueueinmediaplayer.md
 [**Filter Episodes**]: extensions/filter.md
 [**Normalize audio with re-encoding**]: extensions/normalizeaudio.md
+[**OPDS support**]: extensions/opds.md
 [**Rename episodes after download**]: extensions/renameafterdownload.md
 [**Remove cover art from OGG files**]: extensions/removeoggcover.md
 [**Tag downloaded files using Mutagen**]: extensions/tagging.md
