@@ -33,7 +33,7 @@ The main limitation is the inability to browse OPDS catalogs: they are often spl
 
 | setting                                   | value          | description                                                                   |
 |-------------------------------------------|----------------|-------------------------------------------------------------------------------|
-| extensions.opds.formats                   | list           | list ebook mime types in order of preference (eg.  `"application/epub+zip", "application/pdf"` if you prefer epub but accept pdf)                 |
+| extensions.opds.formats                   | list           | list ebook mime types in order of preference (eg.  `"epub", "pdf"` if you prefer epub but accept pdf)                 |
 
 Links:
 
