@@ -6,6 +6,12 @@ This page lists all tasks that have to be done for a gPodder release.
 
 Automating this is discussed in [#293](https://github.com/gpodder/gpodder/issues/293).
 
+Notify Translators
+-------------------
+
+`make messages` on the master branch and commit changes, then notify translators via the
+[#518](https://github.com/gpodder/gpodder/issues/518) github issue.
+
 Update Windows and macOS dependencies
 ---------------------------------
 
