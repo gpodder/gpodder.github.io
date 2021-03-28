@@ -11,7 +11,7 @@ Feedbooks propose a rich catalog of books in the OPDS format.
 See for instance the [Most popular free books](https://catalog.feedbooks.com/publicdomain/browse/top.atom?lang=en).
 
 Also [Gallica](https://api.bnf.fr/api-opds-du-catalogue-de-livres-numeriques-de-gallica)(French national library) proposes
-[latest books](https://gallica.bnf.fr/services/engine/search/opds?operation=searchRetrieve&amp;version=1.2&amp;exactSearch=false&amp;query=dc.format%20all%20%22epub%22%20sortby%20indexationdate%2Fsort.descending%20&amp;filter=provenance%20all%20%22bnf.fr%22) and search results as OPDS.
+[latest books](https://gallica.bnf.fr/services/engine/search/opds?operation=searchRetrieve&version=1.2&exactSearch=false&query=dc.format%20all%20%22epub%22%20sortby%20indexationdate%2Fsort.descending%20&filter=provenance%20all%20%22bnf.fr%22) and search results as OPDS.
 
 
 ## Calibre
