@@ -16,8 +16,10 @@ Update Windows and macOS dependencies
 ---------------------------------
 
 Not required, but it's a good time to update dependencies:
- - macOS: see the [gpodder/gpodder-osx-bundle](https://github.com/gpodder/gpodder-osx-bundle) repository;
+ - macOS: to update native libraries, see the [gpodder/gpodder-osx-bundle](https://github.com/gpodder/gpodder-osx-bundle) repository;
    once the macOS deps are built and released, update [.circleci/config.yml](https://github.com/gpodder/gpodder/blob/master/.circleci/config.yml);
+ - macOS bundle python deps: see the `tools/mac-osx/release_on_mac.sh` for the python deps with versions in `pip install` commands;
+   update them;
  - Windows: see the `tools/win_installer` subdirectory of the [gPodder](https://github.com/gpodder/gpodder) repository.
 
 Testing and release management in the repository
