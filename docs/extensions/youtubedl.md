@@ -40,7 +40,7 @@ about the youtube-dl format specification and for more examples.
 
 Youtube-dl will load the page for your subscription (channel, playlist, ...) and find all
 videos there. This way you will get all episodes, not only the last 15 like in Youtube's own
-RSS feed. You don't need a Youtube API key for this.
+RSS feed.
 
 The major drawback is that youtube-dl is **very slow** to get this information because
 it has to download and parse each video page.
