@@ -7,7 +7,7 @@ title: gPodder Documentation
  * Use the [Sitemap](sitemap.md) to find all pages
  * Support:
    * [Mailing List](mailing-list.md)
-   * IRC channel: `#gpodder` on `irc.freenode.net`
+   * IRC channel: `#gpodder` on `irc.libera.chat`
  * Where to [discover new podcasts](podcast-directories.md)
  * Reviews and feedback: [media coverage](media-coverage.md) (please edit the wiki to add yours)
  * Report problems in our [bug tracker](https://github.com/gpodder/gpodder/issues)
