@@ -223,7 +223,8 @@ Most applications will stop the current song/episode and start playing the selec
 
 ### Synchronising podcasts to MP3 players
 
-Synchronising podcasts to MP3 Players is currently only supported for filesystem-based media players. iPod support is planned for a future release.
+Synchronising podcasts to MP3 Players is supported for any media player that can be mounted via gvfs.
+You can see the list of [available mount backends here](https://en.wikipedia.org/wiki/GVfs). This includes mtp devices on Linux. On Windows currently only devices that can be assigned a drive letter can be accessed. There also support for iPod synchronization.
 
 Before you can synchronise podcasts to your media player, you should ensure that the player has been set up properly in the 'Device' tab. See above for details.
 
@@ -254,6 +255,13 @@ With this feature enabled, if you deleted episodes from your device and then syn
 Any episodes that you choose not to delete will not be deleted on from gPodder, but will not be restored to your player. In order to sync them back to your player, you will then need to disable this feature from Devices Preferences and those episodes will be copied back at the next synch.
 
 If 'Remove episodes deleted on device from gPodder' is not enabled, any episodes deleted from the device will be copied back over during the next sync. You will instead have to manually delete episodes from within gPodder itself.
+
+#### Removing episodes when deleted from gPodder
+
+If your media player does not support playlists or deleting tracks then you can choose to delete
+tracks that have been removed from gPodder from the player when a synchronization is performed. To
+enable this check the 'Remove episodes deleted in gPodder from device' checkbox in the Device
+Preferences dialog.
 
 #### Custom file names
 
