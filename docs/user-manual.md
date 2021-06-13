@@ -224,7 +224,7 @@ Most applications will stop the current song/episode and start playing the selec
 ### Synchronising podcasts to MP3 players
 
 Synchronising podcasts to MP3 Players is supported for any media player that can be mounted via gvfs.
-You can see the list of [available mount backends here](https://en.wikipedia.org/wiki/GVfs). This includes mtp devices on Linux. On Windows currently only devices that can be assigned a drive letter can be accessed. There also support for iPod synchronization.
+You can see the list of [available mount backends here](https://en.wikipedia.org/wiki/GVfs). This includes mtp devices on Linux. On Windows currently only devices that can be assigned a drive letter can be accessed. There is also support for iPod synchronization.
 
 Before you can synchronise podcasts to your media player, you should ensure that the player has been set up properly in the 'Device' tab. See above for details.
 
