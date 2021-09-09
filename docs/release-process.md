@@ -68,3 +68,16 @@ Debian package
 --------------
 
 - Notify Debian packager that a new release is available: tony on mancill dot com
+
+Flathub package
+---------------
+
+The flatpak build files for flathub are in https://github.com/flathub/org.gpodder.gpodder
+
+ - Update gpodder sources URL and sha256sum in the `org.gpodder.gpodder.json` build manifest
+ - Add the release under the `<releases>` tag in `appdata.xml`
+ - If python dependencies have changed, update `python3-requirements.json` by running
+   `flatpak-pip-generator -r <path to tools/requirements.txt in gpodder sources>`
+   (see [flatpak-builder-tools](https://github.com/flatpak/flatpak-builder-tools))
+ - Make a test build by running `flatpak-builder --user --install build-dir org.gpodder.gpodder.json`
+ - Merge your changes to the flathub repo
