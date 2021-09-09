@@ -36,7 +36,7 @@ Testing and release management in the repository
 
 - Test latest Windows and macOS builds in a similar manner.
 
-- Update **src/gpodder/\_\_init\_\_.py** with new version number and release date, update translations and manpages
+- Update `src/gpodder/\_\_init\_\_.py` with new version number and release date, update translations and manpages
   in a single command:
     ```
     make revbump VERSION=x.y.z
