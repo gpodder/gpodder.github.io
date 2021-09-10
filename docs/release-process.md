@@ -12,15 +12,16 @@ Notify Translators
 `make messages` on the master branch and commit changes, then notify translators via the
 [#518](https://github.com/gpodder/gpodder/issues/518) github issue.
 
-Update Windows and macOS dependencies
----------------------------------
+Update dependencies
+-------------------
 
-Not required, but it's a good time to update dependencies:
+If dependencies have been changed or updated, it's a good time to update them:
  - macOS: to update native libraries, see the [gpodder/gpodder-osx-bundle](https://github.com/gpodder/gpodder-osx-bundle) repository;
    once the macOS deps are built and released, update [.circleci/config.yml](https://github.com/gpodder/gpodder/blob/master/.circleci/config.yml);
  - macOS bundle python deps: see the `tools/mac-osx/release_on_mac.sh` for the python deps with versions in `pip install` commands;
    update them;
  - Windows: see the `tools/win_installer` subdirectory of the [gPodder](https://github.com/gpodder/gpodder) repository.
+ - Python (and flatpak): Update the dependencies in `tools/requirements.txt`
 
 Testing and release management in the repository
 ------------------------------------------------
@@ -36,7 +37,7 @@ Testing and release management in the repository
 
 - Test latest Windows and macOS builds in a similar manner.
 
-- Update **src/gpodder/\_\_init\_\_.py** with new version number and release date, update translations and manpages
+- Update `src/gpodder/\_\_init\_\_.py` with new version number and release date, update translations and manpages
   in a single command:
     ```
     make revbump VERSION=x.y.z
@@ -68,3 +69,16 @@ Debian package
 --------------
 
 - Notify Debian packager that a new release is available: tony on mancill dot com
+
+Flathub package
+---------------
+
+The flatpak build files for flathub are in https://github.com/flathub/org.gpodder.gpodder
+
+ - Update gpodder sources URL and sha256sum in the `org.gpodder.gpodder.json` build manifest
+ - Add the release under the `<releases>` tag in `appdata.xml`
+ - If python dependencies have changed, update `python3-requirements.json` by running
+   `flatpak-pip-generator -r <path to tools/requirements.txt in gpodder sources>`
+   (see [flatpak-builder-tools](https://github.com/flatpak/flatpak-builder-tools))
+ - Make a test build by running `flatpak-builder --user --install build-dir org.gpodder.gpodder.json`
+ - Merge your changes to the flathub repo
