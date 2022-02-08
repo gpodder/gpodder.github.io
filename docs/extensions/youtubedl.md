@@ -2,21 +2,22 @@
 title: Youtube-dl
 ---
 
-This extension uses the [youtube-dl](http://ytdl-org.github.io/youtube-dl/) package to
-**download episodes** and/or **refresh subscriptions**.
+This extension uses the [youtube-dl](http://ytdl-org.github.io/youtube-dl/) or the
+[yt-dlp](https://github.com/yt-dlp/yt-dlp) package to **download episodes** and/or
+**refresh subscriptions**.
 
 It will let you download episodes in [any format available from Youtube](#download).
 
 It will let you see [more than the last 15 episodes](#subscriptions) in the channel or playlist.
 
-This extension overrides Youtube subscriptions globally so you don't have to enable it podcast by podcat.
+This extension overrides Youtube subscriptions globally so you don't have to enable it podcast by podcast.
 
 
 ## Dependencies
 
-The `youtube_dl` package is already provided in the Windows and macOS prebuilt applications.
+The `yt-dlp` package is already provided in the Windows and macOS prebuilt applications.
 
-If you need to install it manually, `pip install youtube_dl`.
+If you need to install it manually, `pip install youtube_dl` or `pip install yt-dlp`.
 
 
 ## Downloading episodes with youtube-dl         {#download}
