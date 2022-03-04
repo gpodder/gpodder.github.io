@@ -363,9 +363,9 @@ See [this page](time-stretching.md) for a way to set it up on gPodder.
 
 #### Default gPodder Home folder
 
-Here are the default download folder locations:
+Here are the default gPodder home folder locations:
 
--   **Linux/FreeBSD:** ~/gPodder/Downloads/
+-   **Linux/FreeBSD:** ~/gPodder
 -   **macOS:** ~/Library/Application Support/gPodder (access it using Cmd-Shift-g if the Library folder is hidden in Finder)
 -   **Windows installer:** Documents\gPodder
 -   **Windows portable:** gpodder-3.x.y\config
