@@ -14,7 +14,7 @@
   <meta name="viewport" content="initial-scale=1.0" />
   <link rel="shortcut icon" href="/gpodder.png">
   <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
-  <link href='{{ "/assets/main.css" | relative_url }}' rel='stylesheet'>
+  <link href='{{ "/assets/main.css" | relative_url }}?nocache=20220324' rel='stylesheet'>
 
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}
@@ -22,20 +22,19 @@
 </head>
 
 <body>
-  <a href="https://github.com/gpodder"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
   <div id="root">
-    <img alt="" src="{{page.logo}}" style="height: 80px; float: right;">
-    <h2>{{page.title}}
-      {% if page.subtitle %}
-      <span style="font-size: 10pt; color: #aaa;">// {{page.subtitle}}</span>
-      {% endif %}
-    </h2>
+    <img alt="" src="{{page.logo}}" style="height: 3em; float: left; padding-right: 10px;">
+    <h2>{{page.title}}</h2>
+    {% if page.subtitle %}
+    <div style="font-size: 10pt; margin-top: -20px;">{{page.subtitle}}</div>
+    {% endif %}
+    <div style="clear: left;"></div>
     
     {{ content }}
 
     <address>
-      ©&nbsp;2005-2020 The&nbsp;gPodder&nbsp;Team<br>
-      <a href="https://github.com/gpodder/gpodder.github.io/edit/master/{{page.path}}">Edit this page on GitHub</a>
+      ©&nbsp;2005-2022 The&nbsp;gPodder&nbsp;Team
+      &middot; <a href="https://github.com/gpodder/gpodder.github.io/edit/master/{{page.path}}">Edit this page on GitHub</a>
     </address>
   </div>
 </body>
