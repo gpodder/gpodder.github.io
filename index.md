@@ -16,7 +16,7 @@ ul li {
 }
 </style>
 
-gPodder is a simple, open source [podcast](https://en.wikipedia.org/wiki/Podcast) client written in Python.
+gPodder is a simple, open source [podcast](https://en.wikipedia.org/wiki/Podcast) client.
 
 In development since 2005 with a proven, mature codebase.
 
@@ -47,4 +47,4 @@ released <span id="release-date">{{site.data.gpodder.date}}</span>.
 [repology]: https://repology.org/project/gpodder/versions
 [sailfish]: https://openrepos.net/content/keeperofthekeys/gpodder
 
-![Screenshot of gPodder](assets/screenshot-2022-03-24-crop.png)
+![Screenshot of gPodder, showing the GTK3-based Desktop GUI](assets/screenshot-2022-03-24-crop.png)
