@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #a8a;
-    color: #666;
+    background-color: #868;
+    color: #333;
 }
 
 small {
@@ -38,7 +38,6 @@ address {
     font-style: normal;
     text-align: right;
     color: #aaa;
-    font-size: small;
 }
 
 #root {
@@ -47,7 +46,8 @@ address {
     max-width: 600px;
     padding: 30px;
     background-color: white;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 
 table {

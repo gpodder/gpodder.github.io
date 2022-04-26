@@ -16,25 +16,23 @@ ul li {
 }
 </style>
 
-gPodder is a simple, open source [podcast](https://en.wikipedia.org/wiki/Podcast) client written in Python using GTK+. In development since 2005 with a proven, mature codebase.
+gPodder is a simple, open source [podcast](https://en.wikipedia.org/wiki/Podcast) client.
+
+In development since 2005 with a proven, mature codebase.
 
 {% assign version = site.data.gpodder.version %}
-The latest version is <span id="latest-version">{{version}}</span>, released <span id="release-date">{{site.data.gpodder.date}}</span>. Read the [release notes](https://github.com/gpodder/gpodder/releases).
+Latest version: <span id="latest-version">{{version}}</span>,
+released <span id="release-date">{{site.data.gpodder.date}}</span>.
+([release notes](https://github.com/gpodder/gpodder/releases))
 
-### Get it
+### Downloads
 
--   Windows: [gPodder {{site.data.windows.version}} installer][win] (also as [portable app][win-portable])<br>
-    <small>Already includes Python 3, Gtk 3</small>
--   macOS: [gPodder {{site.data.macos.version}}][mac]<br>
-    <small>Already includes Python 3, Gtk 3</small>
--   Linux/BSD: In your distro, as [Flatpak][flatpak], [Ubuntu ppa][ppa] or [run from Git](docs/run-from-git.md)<br>
-    <small>Available in Debian, Ubuntu, Fedora, FreeBSD Ports, Arch Linux, ...</small>
--   Sailfish OS: from [OpenRepos](https://openrepos.net/content/keeperofthekeys/gpodder)<br>
-    <small>a flavor of gPodder for mobiles running Sailfish OS 1.0.4.20 or later.</small>
--   Source code: [github.com/gpodder/gpodder](https://github.com/gpodder/gpodder)
--   Older releases are available from [github][releases].
+-   Windows: [gPodder {{site.data.windows.version}} installer][win], [portable app][win-portable]
+-   macOS: [gPodder {{site.data.macos.version}}][mac]
+-   Linux/BSD: [Flatpak][flatpak], [distributions][repology] or [run from Git](docs/run-from-git.md)
+-   Others: [Sailfish OS][sailfish], [Ubuntu PPA][ppa], [Source code][source]
 
-### Get help
+### Support
 
 - Read the [documentation](docs/)
 - Ask on the [mailing list](http://www.freelists.org/list/gpodder)
@@ -43,6 +41,10 @@ The latest version is <span id="latest-version">{{version}}</span>, released <sp
 [win]: https://github.com/gpodder/gpodder/releases/download/{{site.data.windows.version}}/windows-gpodder-{{site.data.windows.version}}-installer.exe
 [win-portable]: https://github.com/gpodder/gpodder/releases/download/{{site.data.windows.version}}/windows-gpodder-{{site.data.windows.version}}-portable.exe
 [mac]: https://github.com/gpodder/gpodder/releases/download/{{site.data.macos.version}}/macOS-gPodder-{{site.data.macos.version}}.zip
-[releases]: https://github.com/gpodder/gpodder/releases
 [ppa]: https://launchpad.net/~gpodder/+archive/ubuntu/ppa
 [flatpak]: https://flathub.org/apps/details/org.gpodder.gpodder
+[source]: https://github.com/gpodder/gpodder
+[repology]: https://repology.org/project/gpodder/versions
+[sailfish]: https://openrepos.net/content/keeperofthekeys/gpodder
+
+![Screenshot of gPodder, showing the GTK3-based Desktop GUI](assets/screenshot-2022-03-24-crop.png)
