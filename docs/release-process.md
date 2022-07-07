@@ -82,3 +82,8 @@ The flatpak build files for flathub are in https://github.com/flathub/org.gpodde
    (see [flatpak-builder-tools](https://github.com/flatpak/flatpak-builder-tools))
  - Make a test build by running `flatpak-builder --user --install build-dir org.gpodder.gpodder.json`
  - Merge your changes to the flathub repo
+
+Ubuntu PPA package
+------------------
+
+See https://github.com/gpodder/ppa-scripts
