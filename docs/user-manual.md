@@ -439,3 +439,30 @@ Setting environment variables in your `.profile` doesn't apply to gPodder.app. Y
  2. navigate to **Contents** > **Resources**
  3. right-click **launcher.py** and select **Open With** > **Text Edit**
  4. modify the block starting with *To override gPodder home and/or download directory* as explained there
+
+
+### Moving to an older gPodder release
+
+gPodder is very conservative with its on-disk format changes, in order to make it easy to rollback to an older release if
+something is not to your taste. For instance, there has been no change from December 2016 to July 2022.
+
+Moreover, a backup of the database with the old schema is made on each database schema change.
+You can find them in `$GPODDER_HOME` directory, alongside the `Downloads` folder.
+
+The current database is named `Database`. Backups are named `Database_upgraded-v<VERSION>_<xxxxxxxxxx>`,
+where `VERSION` is the old version and `xxxxxxxxxx` is the timestamp when the upgrade has been performed
+ (eg. Database_upgraded-v8_1564240521).
+
+**To rollback**:
+
+ 1. move the `Database` file out of the way (rename, move to a different folder, delete);
+ 2. copy the `Database_upgraded-vVERSION_xxxxxxxxxx` of your liking to `Database`.
+ 3. you will lose some changes made after the upgrade (added podcasts), but downloaded episodes should be found again.
+
+The timestamp can be decoded on macOS and Linux using `date -d @xxxxxxxxxx`. Be sure to take the bigest
+timestamp (=the latest date) if you have dipped in and out of the new release.
+
+````
+# date -d @563129739
+jeu. 05 nov. 1987 17:55:39 CET
+````
