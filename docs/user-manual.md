@@ -456,13 +456,8 @@ where `VERSION` is the old version and `xxxxxxxxxx` is the timestamp when the up
 **To rollback**:
 
  1. move the `Database` file out of the way (rename, move to a different folder, delete);
- 2. copy the `Database_upgraded-vVERSION_xxxxxxxxxx` of your liking to `Database`.
- 3. you will lose some changes made after the upgrade (added podcasts), but downloaded episodes should be found again.
-
-The timestamp can be decoded on macOS and Linux using `date -d @xxxxxxxxxx`. Be sure to take the bigest
-timestamp (=the latest date) if you have dipped in and out of the new release.
-
-````
-# date -d @563129739
-jeu. 05 nov. 1987 17:55:39 CET
-````
+ 2. copy the `Database_upgraded-vVERSION_xxxxxxxxxx` of your liking to `Database`. Be sure to take the largest timestamp
+    (ie the newest file) if you have dipped in and out of the new release.
+ 3. you will lose some changes made after the upgrade (added podcasts), but downloaded episodes should be found again
+    **after an update**. An update would be needed to add any new episodes back into database before downloaded files
+    would be found. Nevertheless episodes downloaded via youtube-dl will not be found again.
