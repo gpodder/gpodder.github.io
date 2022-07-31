@@ -53,7 +53,7 @@ Release notes/website work
     git push --follow-tags
     ```
 - Let the CI take care of building and testing:
-  - [Travis](https://travis-ci.org/gpodder/gpodder/builds) testing,
+  - [Github](https://github.com/gpodder/gpodder/actions) testing,
   - [CircleCI](https://circleci.com/gh/gpodder/workflows/gpodder) macOS build,
   - [Appveyor](https://ci.appveyor.com/project/elelay/gpodder) Windows build;
 
