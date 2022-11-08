@@ -21,12 +21,6 @@ gPodder is designed to also run directly from a source checkout (the maintainer 
 -   Use **bin/gpodder** to run the GUI
 -   Use **bin/gpo** to run the CLI
 
-If you have checked out the source, but are missing dependencies, you can make the source checkout a self-contained gPodder setup with all dependencies by running:
-
--   **python3 tools/localdepends.py**
-
-This will download feedparser and mygpoclient and place them into **src/** - **bin/gpodder** and **bin/gpo** will be able to pick these modules up from there, so all you really need is Python &gt;= 3.5 on your system.
-
 Configuration
 -------------
 
