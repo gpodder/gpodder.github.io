@@ -40,6 +40,9 @@ As gPodder is written in Python, there is no need to compile anything or to inst
     # Optional: Create desktop icon
     python3 tools/create-desktop-icon.py
 
+    # Windows and Mac need the fake dbus module
+    export PYTHONPATH=./tools/fake-dbus-module/
+
     # To directly launch from command line
     bin/gpo                               # cli client
     bin/gpodder                           # gtk3 client
