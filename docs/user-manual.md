@@ -293,7 +293,7 @@ Use **regular expressions** by surrounding your query with **slashes**:
 
 Arbitrary complex **python expressions** (surround them with **parenthesis**) can also be used,
 following the Adjectives `(downloaded)` and Nouns `('hello' in description)` vocabulary
-defined in [query.py](https://github.com/gpodder/gpodder/blob/master/src/gpodder/query.py#L47).
+defined in [query.py](https://github.com/gpodder/gpodder/blob/master/src/gpodder/query.py#L85).
 
 Here are a few examples:
 
