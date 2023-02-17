@@ -2,7 +2,7 @@
 title: Normalize Audio
 ---
 
-Normalize the volume of audio files with normalize-audio (http://normalize.nongnu.org/)
+Normalize the volume of audio files with [normalize-audio](http://normalize.nongnu.org/) (installed separately).
 
 | setting                                   | value      | description                                               |
 |-------------------------------------------|------------|-----------------------------------------------------------|
