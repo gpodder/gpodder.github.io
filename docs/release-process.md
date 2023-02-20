@@ -42,6 +42,7 @@ Testing and release management in the repository
     ```
     make revbump VERSION=x.y.z
     ```
+- Add release to `share/metainfo/org.gpodder.gpodder.appdata.xml`, including the notable changes from release notes.
 - Commit changes
 
 Release notes/website work
