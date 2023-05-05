@@ -226,7 +226,7 @@ To initiate a sync, select 'Sync to Device' from the 'Extras' menu:
 
 ![Initiate a sync](extras-sync.png)
 
-Previous versions of gPodder required you to sync episodes indivdually - now all episodes are synced at once.
+Previous versions of gPodder required you to sync episodes individually - now all episodes are synced at once.
 
 If you have the 'Create Playlists on device' option enabled, the m3u playlists will be written to your device and then the episodes will be copied over. You see the current status of the sync from the 'Progress' tab of the main gPodder window. From here, you can also control the number of episodes written to your device concurrently via the 'Limit downlads' setting, which also applies to device synchronisation. However, the 'Limit Rate' setting in the 'Progress' tab has no effect on synchronisation speed.
 
