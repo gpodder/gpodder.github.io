@@ -43,7 +43,7 @@ Panucci on Windows
 
 [Panucci](http://panucci.garage.maemo.org/) is a resuming podcast and audiobook player, originally developed for Maemo and Linux, but it's also usable on Windows.
 
-1.  Install Python 2.6 from <http://www.python.org/>
+1.  Install Python from <http://www.python.org/>
 2.  Install PyCairo, PyGObject and PyGTK from <http://www.pygtk.org/downloads.html>
 3.  Install the GTK+ bundle from <http://ftp.gnome.org/pub/GNOME/binaries/win32/gtk+/>
 4.  Install GStreamer (GPL) + PyGSt from <http://www.gstreamer-winbuild.ylatuya.es/doku.php?id=download>

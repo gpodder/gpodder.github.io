@@ -11,7 +11,7 @@ As gPodder is written in Python, there is no need to compile anything or to inst
 ## Dependencies
 
 * Git
-* Python 3.5+
+* Python 3.7+
 * Requests 2.24+
 * Python D-Bus bindings or `tools/fake-dbus-module/`
 * podcastparser
