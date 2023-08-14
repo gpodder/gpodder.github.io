@@ -59,6 +59,10 @@ to false.
 | extensions.youtube-dl.manage_channels     | **true**/false | false to use Youtube's RSS feed (faster but only 15 episodes)                 |
 | extensions.youtube-dl.manage_downloads    | **true**/false | false to download using built-in class (if youtube-dl doesn't work)           |
 
+gPodder 3.11.0 added a preferences page for youtube-dl to better find these settings.
+The `manage_channel` setting is listed as "Parse YouTube channel feeds ..."
+and the `manage_downloads` setting is listed as "Download all supported episodes ...".
+
 Links:
 
 - [Extension Source](https://github.com/gpodder/gpodder/blob/master/share/gpodder/extensions/youtube-dl.py)
