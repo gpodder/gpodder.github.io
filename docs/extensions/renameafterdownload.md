@@ -2,7 +2,7 @@
 title: Rename episode after the download
 ---
 
-Rename episodes to "<Episode Title>.<ext>" on download
+Rename episodes to "&lt;Episode Title&gt;.&lt;ext&gt;" on download
 
 Configuration options:
 
@@ -10,6 +10,8 @@ Configuration options:
 -   `add_podcast_title` - If enabled, will add the podcast title at the front of the filename
 
 If both `add_sortdate` and `add_podcast_title` are enabled, the sortdate will come before the episode (e.g. "`2015-09-29` `-` `Podcast` `Name` `-` `Episode` `Name.ext`").
+
+The `Rename all downloaded episodes` item in the `Extras` menu will rename all currently downloaded episodes.
 
 Links:
 
