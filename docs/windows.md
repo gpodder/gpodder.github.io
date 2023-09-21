@@ -7,6 +7,10 @@ Supported Version
 
 gPodder is tested on **Windows 10**, but it should also work on Windows 7 and later.
 
+gPodder 3.11.2 and later is [known](https://github.com/gpodder/gpodder/issues/1540)
+not to work on Windows 7. Although, it might be possible to build gPodder yourself
+using an older version of msys2.
+
 gPodder 3.10.9 and later is [known](https://www.freelists.org/post/gpodder/gpodder-Digest-V9-17)
 not to work on Windows XP.
 
