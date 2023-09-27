@@ -382,7 +382,7 @@ To change the download directory or gPodder Home, you can set one (or both) of t
 
 There are various ways of setting these variables, depending on your distro/operating system:
  - on Windows 10, see e.g. [this superuser question](https://superuser.com/a/949577);
- - on Linux and macOS, read [this Ubuntu documentation](https://help.ubuntu.com/community/EnvironmentVariables).
+ - on Linux and macOS, read [this Ubuntu documentation](https://help.ubuntu.com/community/EnvironmentVariables) or [this Arch documentation](https://wiki.archlinux.org/title/environment_variables).
 
 
 #### Changing the gPodder Home Folder on Windows
