@@ -319,17 +319,23 @@ Advanced topics
 
 gPodder includes a command-line interface. The command is called `gpo`. You can get a list of possible actions by running the command without any parameters.
 
-### Using a HTTP proxy server
+### Using a HTTP or SOCKS proxy server
 
 You can use a HTTP proxy server for downloading episodes and feeds. Newer versions of gPodder do not provide a way to do so in the GUI, but respect the environment variable **http\_proxy**. How to set the **http\_proxy** environment variable in different operating systems is described here:
 
 -   [Setting http\_proxy in Windows, Mac OS X and Linux/Unix](http://docs.activestate.com/activeperl/5.10/faq/ActivePerl-faq2.html#setting_http_proxy)
+
+You can use a SOCKS proxy server by setting the enronment variable **all\_proxy**.
+
+    export all_proxy=socks5://hostname:port
 
 If you want to use a proxy for gPodder, but don't want to use a proxy for other applications, you can create a short shell script:
 
     #!/bin/sh
     export http_proxy=http://username:password@hostname:port
     gpodder
+
+
 
 
 ### Using pipes.digital to fix feeds
