@@ -336,8 +336,6 @@ If you want to use a proxy for gPodder, but don't want to use a proxy for other 
     gpodder
 
 
-
-
 ### Using pipes.digital to fix feeds
 
 There might be some problems with feeds (see [the related bug report](https://bugs.gpodder.org/show_bug.cgi?id=528)) - to fix it,
