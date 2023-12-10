@@ -325,7 +325,7 @@ You can use a HTTP proxy server for downloading episodes and feeds. Newer versio
 
 -   [Setting http\_proxy in Windows, Mac OS X and Linux/Unix](http://docs.activestate.com/activeperl/5.10/faq/ActivePerl-faq2.html#setting_http_proxy)
 
-You can use a SOCKS proxy server by setting the enronment variable **all\_proxy**.
+You can use a SOCKS proxy server by setting the enronment variable **all\_proxy**. If you want the DNS to be resolved through the proxy, use `socks5h://` instead. See [urllib3 docs](https://urllib3.readthedocs.io/en/stable/advanced-usage.html#socks-proxies) for more details.
 
     export all_proxy=socks5://hostname:port
 
