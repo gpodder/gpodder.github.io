@@ -63,6 +63,8 @@ gPodder 3.11.0 added a preferences page for youtube-dl to better find these sett
 The `manage_channel` setting is listed as "Parse YouTube channel feeds ..."
 and the `manage_downloads` setting is listed as "Download all supported episodes ...".
 
+youtube-dl extension will use the proxy set in [gPodder proxy settings](../user-manual.md#using-a-http-or-socks-proxy-server).
+
 Links:
 
 - [Extension Source](https://github.com/gpodder/gpodder/blob/master/share/gpodder/extensions/youtube-dl.py)
