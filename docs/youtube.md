@@ -44,6 +44,6 @@ The built-in support is limited to MP4 360p (18) and MP4 720p (22) formats. It c
 
 The formats labelled with `youtube-dl` only work with YouTube-DL and fall-back to the above formats when built-in support is used. The `best` formats are also not yet supported and must be enabled like the above audio formats.
 
-Most formats without built-in support require `ffmpeg` to be installed to merge the separate video and audio files. While the Windows and Mac builds bundle youtube-dl, or yt-dlp in 3.10.22, ffmpeg is not included and must be installed separately.
+Most formats without built-in support require `ffmpeg` to be installed to merge the separate video and audio files. While the Windows and Mac builds bundle youtube-dl, or yt-dlp in 3.10.22, ffmpeg is not included and must be installed separately, see [FFmpeg](https://gpodder.github.io/docs/user-manual.html#ffmpeg).
 
 WEBM formats fall-back to MP4 when a WEBM format is not available at the desired resolution.

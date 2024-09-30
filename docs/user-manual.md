@@ -116,6 +116,15 @@ Note that as of version 3.2.0, gPodder only supports syncing with filesystem-bas
 
 gPodder comes with a handful of extensions. Check them out or learn how to make one yourself on [this page](extensions.md).
 
+#### Custom PATH
+
+Some extensions require external programs to work properly. gPodder searches all directories in the PATH environment variable to find programs. You may have installed a program in a custom location or are using the Mac build which ignores PATH and uses its own set of directories. In that case you can open Preferences, click the **Edit config** button, and add the custom directory to the `path.alternate` setting. Multiple directories can be separated by a `;` on Windows and `:` on Mac and Linux.
+
+Do not include the program name or trailing slash in the directory. Set `path.alternate` to `/opt/homebrew/bin` if on Mac and `which ffmpeg` displays `/opt/homebrew/bin/ffmpeg`. Set `path.alternate` to `C:\ffmpeg` if on Windows and `where ffmpeg` displays `C:\ffmpeg\ffmpeg.exe`.
+
+#### FFmpeg
+
+Several extensions require FFmpeg, such as audio converter, concatenate videos, rockbox convert2mp4, video converter and youtube-dl. Linux users can install it via their distro, while others can visit https://ffmpeg.org/download.html or https://github.com/yt-dlp/FFmpeg-Builds/releases. Mac users with homebrew can run `brew install ffmpeg`. See [Custom PATH](https://gpodder.github.io/docs/user-manual.html#custom-path) if on a Mac or if FFmpeg was installed to a custom location and is not in PATH.
 
 ### Advanced configuration options
 
