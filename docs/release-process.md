@@ -17,10 +17,12 @@ Update dependencies
 
 If dependencies have been changed or updated, it's a good time to update them:
  - macOS: to update native libraries, see the [gpodder/gpodder-osx-bundle](https://github.com/gpodder/gpodder-osx-bundle) repository;
-   once the macOS deps are built and released, update [.circleci/config.yml](https://github.com/gpodder/gpodder/blob/master/.circleci/config.yml);
+   once the macOS deps are built and released, update [.github/workflows/release-from-macos.yml](https://github.com/gpodder/gpodder/blob/master/.github/workflows/release-from-macos.yml);
  - macOS bundle python deps: see the `tools/mac-osx/release_on_mac.sh` for the python deps with versions in `pip install` commands;
    update them;
- - Windows: see the `tools/win_installer` subdirectory of the [gPodder](https://github.com/gpodder/gpodder) repository.
+ - Windows: see the `_base.sh` file in the `tools/win_installer` subdirectory of the [gPodder](https://github.com/gpodder/gpodder) repository.
+   The files in this directory were adapted from the `dev-utils/win_installer/` subdirectory of the [QuodLibet](https://github.com/quodlibet/quodlibet) repository,
+   and upstream may contain fixes or improvements.
  - Python (and flatpak): Update the dependencies in `tools/requirements.txt`
 
 Testing and release management in the repository
@@ -44,6 +46,9 @@ Testing and release management in the repository
     ```
 - Add release to `share/metainfo/org.gpodder.gpodder.appdata.xml`, including the notable changes from release notes.
 - Commit changes
+    ```
+    git commit -m "prepare x.y.z release"
+    ```
 
 Release notes/website work
 --------------------------
@@ -54,14 +59,17 @@ Release notes/website work
     git push --follow-tags
     ```
 - Let the CI take care of building and testing:
-  - [Github](https://github.com/gpodder/gpodder/actions) testing,
-  - [CircleCI](https://circleci.com/gh/gpodder/workflows/gpodder) macOS build,
+  - [Github](https://github.com/gpodder/gpodder/actions/workflows/linttest.yml) testing,
+  - [Github](https://github.com/gpodder/gpodder/actions/workflows/release-from-macos.yml) macOS build,
   - [Appveyor](https://ci.appveyor.com/project/elelay/gpodder) Windows build;
 
 - Use the [tools/github_release.py](https://github.com/gpodder/gpodder/blob/master/tools/github_release.py)
-  script to download built windows and macOS packages and test one last time...
-- Use the [tools/github_release.py](https://github.com/gpodder/gpodder/blob/master/tools/github_release.py)
-  script to upload and prepare the release notes (editing while the upload is in progress).
+  script to download built windows and macOS packages and then upload and prepare the release notes
+  (editing while the upload is in progress).
+    ```
+    cd tools
+    GITHUB_TOKEN=xxx python github_release.py --download --mac-github-workflow LATEST_MAC_GA_WORKFLOW --appveyor APPVEYOR_JOB x.y.z
+    ```
 - Once all is uploaded and release notes are ready, change the tag name and publish the release
 - Copy release notes from github releases and post to the Mailing list
 - Update versions on the [website](https://github.com/gpodder/gpodder.github.io/tree/master/_data)
