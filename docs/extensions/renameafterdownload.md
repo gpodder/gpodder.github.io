@@ -16,4 +16,3 @@ The `Rename all downloaded episodes` item in the `Extras` menu will rename all c
 Links:
 
 -   [Extension Source](https://github.com/gpodder/gpodder/blob/master/share/gpodder/extensions/rename_download.py)
--   [Flattr the Extension](https://flattr.com/thing/1248762/gPodder-Video-Converter-Extension)

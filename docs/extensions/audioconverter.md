@@ -12,4 +12,3 @@ This extension will transcode mp4 or ogg audio files to mp3 or ogg.
 Links:
 
 -   [Extension Source](https://github.com/gpodder/gpodder/blob/master/share/gpodder/extensions/audio_converter.py)
--   [Flattr the Extension](https://flattr.com/thing/1248631/gPodder-Audio-Converter-Extension)

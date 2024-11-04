@@ -13,4 +13,3 @@ All three binaries must be in path for gPodder to find them.
 Links:
 
 -   [Extension Source](https://github.com/gpodder/gpodder/blob/master/share/gpodder/extensions/normalize_audio.py)
--   [Flattr the Extension](https://flattr.com/thing/1248762/gPodder-Video-Converter-Extension)
