@@ -108,10 +108,6 @@ Note that as of version 3.2.0, gPodder only supports syncing with filesystem-bas
 
 **Only sync unplayed episodes:** Check this box if you want gPodder to ignore episodes that have already been played, when synchronizing podcasts to your device.
 
-### Flattr options
-
-[Flattr](http://flattr.com/) is a microdonation system that allows you to fund online content creators. You pay a small monthly fee (set by yourself), and it is shared between all the online resources you "flattr," or choose to support. Click the **Flattr** tab to see gPodder's options for Flattr.
-
 ### gPodder Extensions
 
 gPodder comes with a handful of extensions. Check them out or learn how to make one yourself on [this page](extensions.md).

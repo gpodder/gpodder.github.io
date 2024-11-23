@@ -14,4 +14,3 @@ Add episode and podcast titles to MP3/OGG tags
 Links:
 
 -   [Extension Source](https://github.com/gpodder/gpodder/blob/master/share/gpodder/extensions/tagging.py)
--   [Flattr the Extension](https://flattr.com/thing/1203533/gPodder-Tagging-Extension)

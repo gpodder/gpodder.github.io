@@ -12,4 +12,3 @@ This extension will transcode mp4, m4v or flv video files to mp4, m4v or avi fil
 Links:
 
 -   [Extension Source](https://github.com/gpodder/gpodder/blob/master/share/gpodder/extensions/video_converter.py)
--   [Flattr the Extension](https://flattr.com/thing/1248762/gPodder-Video-Converter-Extension)

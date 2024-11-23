@@ -11,4 +11,3 @@ Removes coverart from all downloaded ogg files
 Links:
 
 -   [Extension Source](https://github.com/gpodder/gpodder/blob/master/share/gpodder/extensions/rm_ogg_cover.py)
--   [Flattr the Extension](https://flattr.com/thing/1248861/gPodder-Extension-Ogg-coverart-remover)
