@@ -13,7 +13,7 @@ By default, this extension will:
    - Write the publish date
 
 Also available are writing the Subtitle tag and the Comments tag (both with the
-subtitle field), but the subtitile is often so long that it may cause problems with
+subtitle field), but the subtitle is often so long that it may cause problems with
 certain audio players, such as Rockbox players. These are disabled by default.
 
 This extension can optionally embed coverart - note that the coverart will not be
