@@ -28,20 +28,20 @@ This extension requires python module `mutagen`.
 
 | setting                                      | value      | description                                                                               | version           |
 |----------------------------------------------|------------|-------------------------------------------------------------------------------------------|-------------------|
-| extensions.tagging.strip\_album\_from\_title | **true**/false | true = removes the Album tag from the Title tag if the Title begins with the same string as the Album tag | all |
-| extensions.tagging.genre\_tag                | Podcast    | Sets the Genre tag. Default = Podcast | all |
-| extensions.tagging.always\_remove\_tags      | true/**false** | true = extension removes all tags instead of creating/adding tag information              | 3.5.0             |
-| extensions.tagging.auto\_embed\_coverart     | true/**false** | true = embed channel cover art in file. | git master branch |
-| extensions.tagging.set\_artist\_to\_album    | **True**/False | True = set the Artist tag to the same as the existing Album tag. | git master branch |
+| extensions.tagging.strip\_album\_from\_title | **true**/false | Remove the Album tag from the Title tag if the Title begins with the same string as the Album tag | all |
+| extensions.tagging.genre\_tag                | Podcast    | Value for the Genre tag | all |
+| extensions.tagging.always\_remove\_tags      | true/**false** | Remove all tags instead of creating/adding tag information              | 3.5.0 and newer             |
+| extensions.tagging.auto\_embed\_coverart     | true/**false** | Embed channel cover art in file | git master branch |
+| extensions.tagging.set\_artist\_to\_album    | **True**/False | Set the Artist tag to the same as the existing Album tag | git master branch |
 | extensions.tagging.set\_version              | 4              | Sets the id3 version which will be written | git master branch |
 | extensions.tagging.modify\_tags              | **True**/False | Allow tags to be modified rather than simply added. If set to False, remove\_before\_modify has no effect | git master branch |
 | extensions.tagging.remove\_before\_modify    | **True**/False | Delete all existing tags prior to writing new tags | git master branch |
-| extensions.tagging.write\_title              | **True**/False | True = write the title field | git master branch |
-| extensions.tagging.write\_album              | **True**/False | True = write the album field | git master branch |
-| extensions.tagging.write\_subtitle           | True/**False** | True = write the subtitle field | git master branch |
-| extensions.tagging.write\_comments           | True/**False** | True = write the comments field (with the subtitle) | git master branch |
-| extensions.tagging.write\_genre              | **True**/False | True = write the genre with the genre\_tag setting | git master branch |
-| extensions.tagging.write\_pubdate            | **True**/False | True = write the published date | git master branch |
+| extensions.tagging.write\_title              | **True**/False | Write the title field | git master branch |
+| extensions.tagging.write\_album              | **True**/False | Write the album field | git master branch |
+| extensions.tagging.write\_subtitle           | True/**False** | Write the subtitle field | git master branch |
+| extensions.tagging.write\_comments           | True/**False** | Write the comments field (with the subtitle) | git master branch |
+| extensions.tagging.write\_genre              | **True**/False | Write the genre with the genre\_tag setting | git master branch |
+| extensions.tagging.write\_pubdate            | **True**/False | Write the published date | git master branch |
 
 
 
