@@ -397,6 +397,10 @@ There are various ways of setting these variables, depending on your distro/oper
  - on Windows 10, see e.g. [this superuser question](https://superuser.com/a/949577);
  - on Linux and macOS, read [this Ubuntu documentation](https://help.ubuntu.com/community/EnvironmentVariables) or [this Arch documentation](https://wiki.archlinux.org/title/environment_variables).
 
+Please note that `GPODDER_HOME` will not work well on a network share.
+See [#1670](https://github.com/gpodder/gpodder/issues/1670) for example.
+You should set `GPODDER_DOWNLOAD_DIR` to your network location but keep `GPODDER_HOME` local if possible.
+
 
 #### Changing the gPodder Home Folder on Windows
 
