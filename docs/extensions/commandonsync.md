@@ -23,7 +23,7 @@ Usage
 2. In the Advanced Configuration (**Edit Configuration** button), define the `extensions.command_on_sync.command`
     entry to the command you want to run.
 
-I advise you to write a wrapper script if the command is a bit long. You can also directly edit
+If the command is a bit long, write a wrapper script. You can also directly edit
 `$GPODDER_HOME/Settings.json` to refine your command.
 
 Example Commands
