@@ -32,7 +32,7 @@ Example Commands
 ### Linux
 
 ```
-zenity --info --width=600 --text="All episodes syncrhonized"
+zenity --info --width=600 --text="All episodes synchronised"
 ```
 
 displays all variables in a dialog window (requires zenity).
