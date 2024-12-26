@@ -14,7 +14,7 @@ Run a predefined external command upon sync completion.
 Introduction
 -----------
 
-One might want to run an external program when all podcast episodes get synchronized to external database (refresh a player's database or enqueue the episode, download episode statistics, run other device-related program like Last.FM scrobbler, etc.). This extension makes it possible to execute any commad.
+One might want to run an external program when all podcast episodes get synchronized to external database (refresh a player's database or enqueue the episode, download episode statistics, run other device-related program like Last.FM scrobbler, etc.). This extension makes it possible to execute any command.
 
 Usage
 -----
