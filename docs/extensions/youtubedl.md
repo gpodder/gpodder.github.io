@@ -25,9 +25,11 @@ If you need to install it manually, `pip install youtube_dl` or `pip install yt-
 The main advantage of this extension is to use youtube-dl to download formats not available natively.
 
 For instance with youtube-dl you can **download the audio only**:
+
  1. Go to *Preferences* > *Extensions* to activate the youtube-dl extension;
- 3. go to *Preferences* > *Edit Configuration*;
- 4. search for *youtube* and set the `youtube.preferred_fmt_ids` parameter to `bestaudio[ext=ogg], bestaudio`.
+ 2. Press the *Edit config* button in *Preferences*
+ 3. Search for *youtube* and set the `youtube.preferred_fmt_ids` parameter to `bestaudio[ext=ogg], bestaudio`.
+ 4. Set `youtube.preferred_fmt_id` to 0 to enable the custom format set in the previous step
 
 `youtube.preferred_fmt_ids` takes a list of format strings separated by comma:
 `bestaudio[ext=ogg],bestaudio` is translated to youtube-dl format `bestaudio[ext=ogg]/bestaudio`, meaning preferably
