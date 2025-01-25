@@ -38,6 +38,10 @@ released <span id="release-date">{{site.data.gpodder.date}}</span>.
 - Ask on the [mailing list](http://www.freelists.org/list/gpodder)
 - Report problems at the [issue tracker](https://github.com/gpodder/gpodder/issues)
 
+### Visit our website
+
+Check out more details on our [official website](http://127.0.0.1:8080).
+
 [win]: https://github.com/gpodder/gpodder/releases/download/{{site.data.windows.version}}/windows-gpodder-{{site.data.windows.version}}-installer.exe
 [win-portable]: https://github.com/gpodder/gpodder/releases/download/{{site.data.windows.version}}/windows-gpodder-{{site.data.windows.version}}-portable.exe
 [mac]: https://github.com/gpodder/gpodder/releases/download/{{site.data.macos.version}}/macOS-gPodder-{{site.data.macos.version}}.zip
@@ -48,3 +52,4 @@ released <span id="release-date">{{site.data.gpodder.date}}</span>.
 [sailfish]: https://openrepos.net/content/keeperofthekeys/gpodder
 
 ![Screenshot of gPodder, showing the GTK3-based Desktop GUI](assets/screenshot-2022-03-24-crop.png)
+
