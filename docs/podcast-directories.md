@@ -6,20 +6,12 @@ Obviously, the best place to search for podcasts is on our own open web service,
 
 Complete directories:
 * http://gpodder.net/ (Recommended)
+* https://podcastindex.org/
 * http://www.audiocast.it/podlist (Italian)
 * http://www.miroguide.com/
-* http://podcast.com
 * http://www.podcast.de/ (German)
 * http://podcastalley.com
-* http://podcastdirectory.com
-* http://podster.de (German)
 
 Podcasts by subject:
 * https://wiki.ubuntu.com/Podcasts (Ubuntu and Linux podcasts)
 * http://www.thelinuxlink.net/ (Linux podcasts)
-* http://www.sciencepodcasters.org/ (science podcasts)
-
-Podcasts by channel:
-* http://www.bbc.co.uk/podcasts
-* http://revision3.com
-
