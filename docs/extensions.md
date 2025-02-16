@@ -21,6 +21,7 @@ The following extensions are included with gPodder 3:
 -   **Notification Bubbles for Windows** - 'Display notification bubbles for different events.
 -   [**Remove cover art from OGG files**] - removes coverart from all downloaded ogg files
 -   [**Rename episodes after download**] - Rename episodes to “<Episode Title>.<ext>” on download
+-   [**Rockbox Cover Art Sync**] - Normalize and sync channel coverart to Rockbox or other portable media players
 -   [**Search for new episodes on startup**] - Starts the search for new episodes on startup
 -   **Sonos** - Stream podcasts to Sonos speakers
 -   **Subtitle Downloader for TED Talks** - Downloads .srt subtitles for TED Talks Videos
@@ -98,6 +99,7 @@ This is OK: no need to recompile anything: just edit the **.py** and restart...
 [**Normalize audio with re-encoding**]: extensions/normalizeaudio.md
 [**Rename episodes after download**]: extensions/renameafterdownload.md
 [**Remove cover art from OGG files**]: extensions/removeoggcover.md
+[**Rockbox Cover Art Sync**]: extensions/rockbox_coverart.md
 [**Tag downloaded files using Mutagen**]: extensions/tagging.md
 [**Search for new episodes on startup**]: extensions/searchepisodeonstartup.md
 [**Video Converter**]: extensions/videoconverter.md
