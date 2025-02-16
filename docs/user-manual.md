@@ -90,23 +90,40 @@ Click the **Devices** tab to see gPodder's options for portable media player dev
 **Device type:** Choose the type of device from this drop-down list that matches your player. The available options are:
 
 -   *Filesystem-based* - Choose this device if your media player is treated like a simple USB storage device, and media files are added by copying them to a directory on the device.
+-   *iPod*
 
-Note that as of version 3.2.0, gPodder only supports syncing with filesystem-based devices. Check the user documentation for your device if you're unsure what kind it is.
+**Mountpoint:** Click this button to choose the desired folder on your device for Podcasts.
 
-**Mountpoint:** Click this button to choose the mount point where your media player normally appears on your system. For example, on a Windows system it might be drive `F:`.
+**Create separate folders for each podcast** Enable this to have gPodder create a separate folder on the device for each podcast. If disabled, all podcasts will be put in the same folder.
 
 **Create Playlists on device:** Enable this option to have gPodder create a m3u format playlist on your device during the sychronisation process. This is only supported for filesystem-based media players. If 'Create Playlists on device' is enabled, the following settings can also be configured:
 
+-   *Use absolute paths in playlists* - Enable this to have gPodder use absolute paths in the playlists it creates. If disabled, relative paths will be created.
 -   *Playlists Folder* - Click this button to choose the folder on your media player in which your playlist files will be created.
--   *Remove episodes deleted on device from gPodder* - If this option is selected, gPodder will offer to delete episodes deleted on the device since the last sync from the gPodder itself.
+
+**Episode filename method:** Select which method will be used to generate filenames for each episode on the device. The available options are:
+
+-   *Same filename as local*
+-   *Use episode title as filename*
+-   *Use custom filename format*
+
+**Custom filename format:** Use this field to define a custom filename format which will be used if *Episode filename method* is set to *Use custom filename format*.
+
+**Maximum filename length:** Set the maximum number of characters allowed in a filename on the device. Most devices have a limit to the total number of characters allowed in a file path.
+
+**Only sync unplayed episodes:** Check this box if you want gPodder to ignore episodes that have already been played when synchronizing podcasts to your device.
+
+**Sync existing episodes on device when file size differs from gPodder** Check this box to sync episodes again when gPodder detects that their size is different on the device.
+
+**Delete episodes from gPodder when deleted on Device** When episodes are deleted on device, delete them from gPodder the next time the device is synced. Note that in order to detect when episodes are deleted, *Create playlists on device* must be enabled.
+
+**Delete episodes from Device when deleted in gPodder** When episodes are deleted from gPodder, delete them from the Device the next time the device is synced.
 
 **After syncing an episode:** Choose what you want gPodder to do after it transfers a podcast eposide to your player. The available options are:
 
 -   *Do nothing* - gPodder simply transfers the file and takes no further action.
 -   *Mark as played* - gPodder transfers the file and marks it as already played.
 -   *Delete it from gPodder* - gPodder transfers the file, then deletes it from the computer.
-
-**Only sync unplayed episodes:** Check this box if you want gPodder to ignore episodes that have already been played, when synchronizing podcasts to your device.
 
 ### gPodder Extensions
 
@@ -241,7 +258,7 @@ If the 'Create playlists on device' option is enabled, gPodder will create playl
 
 #### Removing episodes via synchronisation
 
-If you have the 'Create playlists on device' option enabled, you can also enable the option 'Remove episodes deleted on device from gPodder'.
+If you have the 'Create playlists on device' option enabled, you can also enable the option 'Delete episodes from gPodder when deleted on Device'.
 
 ![Removing episodes via synchronisation](gpodder-devices.png)
 
@@ -259,14 +276,14 @@ If 'Remove episodes deleted on device from gPodder' is not enabled, any episodes
 
 If your media player does not support playlists or deleting tracks then you can choose to delete
 tracks that have been removed from gPodder from the player when a synchronization is performed. To
-enable this check the 'Remove episodes deleted in gPodder from device' checkbox in the Device
+enable this check the 'Delete episodes from Device when deleted in gPodder' checkbox in the Device
 Preferences dialog.
 
 #### Custom file names
 
 You can use custom file names when synchronising. This makes browsing files on your device much more convenient.
 
-The default value for the custom filename field is {episode.basename}. This will work for most podcasts. However, occasionally you may find a podcast where the producers don't provide unique information in the tags, which can result in multiple episodes being given the same name (e.g. podcast.mp3), and thus overwriting one another on synchronisation. One workaround to this is to include the {episode.sortdate} data. Multiple fields can be concatenated, e.g.: "{episode.sortdate}\_{episode.basename}" which will result in files of the form "2012-01-14\_podcast.mp3".
+The default value for the custom filename field is {episode.sortdate}_{episode.title}. This will work for most podcasts. However, occasionally you may find a podcast where the producers don't provide unique information in the tags, which can result in multiple episodes being given the same name (e.g. podcast.mp3), and thus overwriting one another on synchronisation. One workaround to this is to include the {episode.sortdate} data. Multiple fields can be concatenated, e.g.: "{episode.sortdate}\_{episode.basename}" which will result in files of the form "2012-01-14\_podcast.mp3".
 
 For podcasts that release multiple episodes on the same day, even this might not be enough. Try also {episode.sortdate}\_{episode.title}, or even {episode.sortdate}\_{episode.published}
 
