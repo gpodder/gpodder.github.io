@@ -27,8 +27,8 @@ Requires python modules `pillow` and `filelock`. These are available on pip.
 |---------|-------|-------------|
 | extensions.rockbox_coverart.art_name_on_device  | cover.jpg | Desired filename on device. Only jpg, jpeg, and png filetypes allowed. |
 | extensions.rockbox_coverart.convert_and_resize_art | **True**/False | Enable conversion and resize operations |
-| extensions.rockbox_coverart.convert_size | 500 | Cover art will be resized to this size (square). If convert_allow_upscale_art=False, art smaller than this size will retain its size. Only used if convert_and_resize_art=True. |
-| extensions.rockbox_coverart.convert_allow_upscale_art | True/**False** | Allow upscaling of art. If set to true, will allow images smaller than convert_size (square) to be upscaled to convert_size. Only used if convert_and_resize_art=True. |
+| extensions.rockbox_coverart.convert_size | 500 | Cover art will be resized so that the larger of (height, width) is equal to this size. If convert_allow_upscale_art=False, art smaller than this size will retain its size. Only used if convert_and_resize_art=True. |
+| extensions.rockbox_coverart.convert_allow_upscale_art | True/**False** | Allow upscaling of art. If set to true, will allow images smaller than convert_size to be upscaled to convert_size. Only used if convert_and_resize_art=True. |
 
 Links:
 
