@@ -4,6 +4,9 @@ title: Extensions
 
 Extensions are gPodder's mechanism for adding optional features and allowing easy customizability. Some extensions are already activated by default if you are running a specific environment (e.g. Ubuntu Unity support in gPodder 3 is implemented as an extension).
 
+Sometimes the ordering of extensions is important. gPodder parses the filenames of extensions for a prefix, like "50_". When it finds a prefix like this, it sorts according to said prefix, with lower numbers higher. *Note that this does not use "natural sorting", so "100" comes between "10" and "11".* Extensions found without a prefix will be given the lowest two-digit priority, "99". If multiple instances of an extension are desired, the base name must be different, not just the prefix.
+
+Extensions found within the user extension directory with the same base name (regardless of whether the prefix matches, or is present at all) override extensions provided with gPodder in the system directory.
 
 ### Default Extensions Included With gPodder
 
