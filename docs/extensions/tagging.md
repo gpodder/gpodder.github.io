@@ -41,7 +41,7 @@ This extension requires python modules `mutagen` and `pillow`.
 | extensions.tagging.set\_version              | 4              | Sets the id3 version which will be written | git master branch |
 | extensions.tagging.modify\_tags              | **True**/False | Allow tags to be modified rather than simply added. If set to False, remove\_before\_modify has no effect | git master branch |
 | extensions.tagging.remove\_before\_modify    | **True**/False | Delete all existing tags prior to writing new tags | git master branch |
-| extensions.tagging.embed\_coverart           | true/**false** | Embed cover art in file | git master branch |
+| extensions.tagging.auto\_embed\_coverart           | true/**false** | Embed cover art in file | git master branch |
 | extensions.tagging.prefer\_channel\_coverart | true/**false** | Prefer embedding the channel coverart if available over the episode coverart | git master branch |
 | extensions.tagging.normalize\_coverart       | **true**/false | Normalize the coverart to the desired size and file type before embedding it | git master branch |
 | extensions.tagging.episode\_coverart\_size   | 500            | Desired size (in pixels) of coverart. Only used if normalize\_coverart is True | git master branch |
