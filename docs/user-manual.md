@@ -276,7 +276,7 @@ If 'Remove episodes deleted on device from gPodder' is not enabled, any episodes
 
 If your media player does not support playlists or deleting tracks then you can choose to delete
 tracks that have been removed from gPodder from the player when a synchronization is performed. To
-enable this check the 'Delete episodes from Device when deleted in gPodder' checkbox in the Device
+enable this check the *Delete episodes from Device when deleted in gPodder* checkbox in the Device
 Preferences dialog.
 
 #### Custom file names
