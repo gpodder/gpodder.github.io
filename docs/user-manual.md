@@ -90,7 +90,7 @@ Click the **Devices** tab to see gPodder's options for portable media player dev
 **Device type:** Choose the type of device from this drop-down list that matches your player. The available options are:
 
 -   *Filesystem-based* - Choose this device if your media player is treated like a simple USB storage device, and media files are added by copying them to a directory on the device.
--   *iPod*
+-   *iPod* - Note: Support for syncing to iPods was re-added circa 2022, confirmations of it working or bug reports are appreciated at this time.
 
 **Mountpoint:** Click this button to choose the desired folder on your device for Podcasts.
 
