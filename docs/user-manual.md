@@ -283,9 +283,23 @@ Preferences dialog.
 
 You can use custom file names when synchronising. This makes browsing files on your device much more convenient.
 
-The default value for the custom filename field is {episode.sortdate}_{episode.title}. This will work for most podcasts. However, occasionally you may find a podcast where the producers don't provide unique information in the tags, which can result in multiple episodes being given the same name (e.g. podcast.mp3), and thus overwriting one another on synchronisation. One workaround to this is to include the {episode.sortdate} data. Multiple fields can be concatenated, e.g.: "{episode.sortdate}\_{episode.basename}" which will result in files of the form "2012-01-14\_podcast.mp3".
+The default value for the custom filename field is `{episode.sortdate}_{episode.title}`.
 
-For podcasts that release multiple episodes on the same day, even this might not be enough. Try also {episode.sortdate}\_{episode.title}, or even {episode.sortdate}\_{episode.published}
+Some of the available tags are:
+-   `{episode.basename}`
+-   `{episode.title}`
+-   `{episode.sortdate}`
+-   `{episode.published}`
+-   `{podcast.title}`
+-   `{podcast.id}`
+
+`{episode.basename}` is the episode's filename in gPodder's download folder.
+
+Note that tags for both the episode and the podcast channel are available. The above is by no means an exhaustive list of the tags available, but represents some of the more useful ones.
+
+Multiple fields can be concatenated, e.g.: `{episode.sortdate}_{episode.basename}` which will result in files of the form `2012-01-14_podcast.mp3`.
+
+Occasionally you may find a podcast where the producers don't provide unique information in the tags, which can result in multiple episodes being given the same name (e.g. podcast.mp3), and thus overwriting one another on synchronisation. In this case the tags `{episode.sortdate}` and `{episode.published}` can be useful to create unique filenames.
 
 Both playlist creation and the ability to remove episodes from gPodder by deleting them from the device will work with custom file names enabled.
 
