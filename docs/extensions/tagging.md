@@ -23,7 +23,7 @@ artwork will be preferred if it is present - if not, the channel artwork will be
 Note that episode-specific artwork in MP4 files is currently not implemented.
 
 The artwork can optionally be normalized to the desired parameters - size and file type.
-By default, it will baseline JPEGs with the larger side scaled to 500px with the aspect ratio maintained.
+By default, it will write Baseline (Non-Progressive) JPEGs with the larger side scaled to 500px and the aspect ratio maintained.
 
 This extension can optionally remove all tags instead of doing any of the above.
 This is disabled by default.
