@@ -12,6 +12,8 @@ Note that this allows for easy changing of extension priorities. Simply create a
 
 As an example, if you wished to change "20_audio_converter.py" to "50_audio_converter.py", all you would need to do is, in the user extension directory, make a symbolic link called "50_audio_converter.py" which points to the original extension in the system directory.
 
+This would also work if you wished to create multiple instances of the same extension. For example, if you wished to have a "command_on_download.py" which runs early and one which runs late, you could create two symlinks in the user extension directory, "10_command_on_download.py" and "80_command_on_download_late.py".
+
 ### Default Extensions Included With gPodder
 
 The following extensions are included with gPodder 3:
