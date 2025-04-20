@@ -8,6 +8,10 @@ Sometimes the ordering of extensions is important. gPodder parses the filenames 
 
 Extensions found within the user extension directory with the same base name (regardless of whether the prefix matches, or is present at all) override extensions provided with gPodder in the system directory.
 
+Note that this allows for easy changing of extension priorities. Simply create a symbolic link in the user extension directory which points to the existing extension in the gPodder system directory and name it the same except with a different numerical prefix. This works even if the extension in the system directory does not have a prefix at all!
+
+As an example, if you wished to change "20_audio_converter.py" to "50_audio_converter.py", all you would need to do is, in the user extension directory, make a symbolic link called "50_audio_converter.py" which points to the original extension in the system directory.
+
 ### Default Extensions Included With gPodder
 
 The following extensions are included with gPodder 3:
