@@ -4,6 +4,17 @@ title: Extensions
 
 Extensions are gPodder's mechanism for adding optional features and allowing easy customizability. Some extensions are already activated by default if you are running a specific environment (e.g. Ubuntu Unity support in gPodder 3 is implemented as an extension).
 
+Sometimes the ordering of extensions is important. gPodder parses the filenames of extensions for a prefix, like "50_". When it finds a prefix like this, it sorts according to said prefix, with lower numbers being run earlier. If two extensions have the same priority, they will be sorted in alphabetical order according to their base name. If multiple instances of an extension are desired, the base name must be different, not just the prefix.
+
+Extensions found within the user extension directory with the same base name (regardless of whether the prefix matches, or is present at all) override extensions provided with gPodder in the system directory.
+
+Note that this allows for easy changing of extension priorities. Simply create a symbolic link in the user extension directory which points to the existing extension in the gPodder system directory and name it the same except with a different numerical prefix. This works even if the extension in the system directory does not have a prefix at all!
+
+As an example, if you wished to change "20_audio_converter.py" to "50_audio_converter.py", all you would need to do is, in the user extension directory, make a symbolic link called "50_audio_converter.py" which points to the original extension in the system directory.
+
+This would also work if you wished to create multiple instances of the same extension. For example, if you wished to have a "command_on_download.py" which runs early and one which runs late, you could create two symlinks in the user extension directory, "10_command_on_download.py" and "80_command_on_download_late.py".
+
+Extensions with no priority prefix automatically get priority 99. Therefore if an extension needs to run later than everything, use a value of 100 or greater.
 
 ### Default Extensions Included With gPodder
 
