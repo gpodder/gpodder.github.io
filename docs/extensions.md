@@ -68,9 +68,9 @@ The folder doesn't exist by default, so create it.
 #### Doing something useful
 
 Maybe an existing extension does something similar to what you want
-([rename after download](https://github.com/gpodder/gpodder/blob/master/share/gpodder/extensions/rename_download.py),
-[tagging](https://github.com/gpodder/gpodder/blob/master/share/gpodder/extensions/tagging.py),
-[run a command after download](https://github.com/gpodder/gpodder/blob/master/share/gpodder/extensions/command_on_download.py), ...).
+([rename after download](https://github.com/gpodder/gpodder/blob/master/share/gpodder/extensions/80_rename_download.py),
+[tagging](https://github.com/gpodder/gpodder/blob/master/share/gpodder/extensions/50_tagging.py),
+[run a command after download](https://github.com/gpodder/gpodder/blob/master/share/gpodder/extensions/90_command_on_download.py), ...).
 Find inspiration in [its source code](https://github.com/gpodder/gpodder/tree/master/share/gpodder/extensions).
 
 To see how an extension is loaded and every available callback, take a look at [extensions.py](https://github.com/gpodder/gpodder/blob/master/src/gpodder/extensions.py);
