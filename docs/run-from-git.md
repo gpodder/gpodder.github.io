@@ -62,7 +62,7 @@ First time setup:
     # Optional: Create desktop icon
     python3 tools/create-desktop-icon.py
 
-    # Windows and Mac: add the fake debus module to the python path
+    # Windows and Mac: add the fake dbus module to the python path
     export PYTHONPATH=./tools/fake-dbus-module/
 
     # To directly launch from command line
