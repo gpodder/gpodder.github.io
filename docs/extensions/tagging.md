@@ -34,16 +34,16 @@ This extension requires python modules `mutagen` and `pillow`.
 
 | setting                                      | value      | description                                                                               | version           |
 |----------------------------------------------|------------|-------------------------------------------------------------------------------------------|-------------------|
-| extensions.tagging.strip\_album\_from\_title | **true**/false | Remove the Album tag from the Title tag if the Title begins with the same string as the Album tag | all |
+| extensions.tagging.strip\_album\_from\_title | **True**/False | Remove the Album tag from the Title tag if the Title begins with the same string as the Album tag | all |
 | extensions.tagging.genre\_tag                | Podcast    | Value for the Genre tag | all |
-| extensions.tagging.always\_remove\_tags      | true/**false** | Remove all tags instead of creating/adding tag information              | 3.5.0 and newer             |
+| extensions.tagging.always\_remove\_tags      | True/**False** | Remove all tags instead of creating/adding tag information              | 3.5.0 and newer             |
 | extensions.tagging.set\_artist\_to\_album    | **True**/False | Set the Artist tag to the same as the existing Album tag | 3.9.3 and newer |
 | extensions.tagging.set\_version              | 4              | Sets the id3 version which will be written | 3.10.8 and newer |
 | extensions.tagging.modify\_tags              | **True**/False | Allow tags to be modified rather than simply added. If set to False, remove\_before\_modify has no effect | 3.10.8 and newer |
 | extensions.tagging.remove\_before\_modify    | **True**/False | Delete all existing tags prior to writing new tags | 3.11.1 and newer |
-| extensions.tagging.auto\_embed\_coverart           | true/**false** | Embed cover art in file | 3.9.4 and newer |
-| extensions.tagging.prefer\_channel\_coverart | true/**false** | Prefer embedding the channel coverart if available over the episode coverart | newer than 3.11.5 |
-| extensions.tagging.normalize\_coverart       | **true**/false | Normalize the coverart to the desired size and file type before embedding it | newer than 3.11.5 |
+| extensions.tagging.auto\_embed\_coverart           | True/**False** | Embed cover art in file | 3.9.4 and newer |
+| extensions.tagging.prefer\_channel\_coverart | True/**False** | Prefer embedding the channel coverart if available over the episode coverart | newer than 3.11.5 |
+| extensions.tagging.normalize\_coverart       | **True**/False | Normalize the coverart to the desired size and file type before embedding it | newer than 3.11.5 |
 | extensions.tagging.episode\_coverart\_size   | 500            | Desired size (in pixels) of coverart. Only used if normalize\_coverart is True | newer than 3.11.5 |
 | extensions.tagging.episode\_coverart\_filetype | 0 (JPEG)     | Desired filetype of coverart. integer value, maps to 0=JPEG, 1=PNG. Only used if normalize\_coverart is True | newer than 3.11.5 |
 | extensions.tagging.write\_title              | **True**/False | Write the title field | newer than 3.11.5 |
