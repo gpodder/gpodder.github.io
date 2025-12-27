@@ -67,6 +67,17 @@ and the `manage_downloads` setting is listed as "Download all supported episodes
 
 youtube-dl extension will use the proxy set in [gPodder proxy settings](../user-manual.md#using-a-http-or-socks-proxy-server).
 
+## Read settings from youtube-dl or yt-dlp config file
+
+gPodder 3.11.6 can load settings from the same config file used by the command line tool, and other tools such as mpv.
+The file can be found at `${XDG_CONFIG_HOME}/yt-dlp/config` on Linux/macOS, and `${APPDATA}/yt-dlp/config` on Windows.
+A list of more config file locations are available at https://github.com/yt-dlp/yt-dlp#configuration.
+
+The extension's preferences page has a checkbox that must be enabled to load the config file.
+Please uncheck it to verify extension related errors are not caused by settings in your config file.
+
+Some settings are overridden by gPodder, such as `-f` and `--format`.
+
 Links:
 
 - [Extension Source](https://github.com/gpodder/gpodder/blob/master/share/gpodder/extensions/youtube-dl.py)
