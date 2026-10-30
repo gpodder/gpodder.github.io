@@ -78,6 +78,21 @@ Please uncheck it to verify extension related errors are not caused by settings 
 
 Some settings are overridden by gPodder, such as `-f` and `--format`.
 
+Every line in the config file is an argument you would pass to yt-dlp on the command line, and lines starting with `#`
+are comments ignored by yt-dlp. The following is a sample config file:
+
+```
+# do not cache javascript player files
+--no-cache-dir
+
+# hide ffmpeg "Cannot reuse HTTP connection for different host" errors that spam terminal
+# https://github.com/yt-dlp/yt-dlp/issues/6658
+--downloader-args "ffmpeg_i:-http_persistent 0"
+
+# read cookies from Chrome browser (there is concern that Youtube may ban accounts doing this...)
+--cookies-from-browser chrome
+```
+
 Links:
 
 - [Extension Source](https://github.com/gpodder/gpodder/blob/master/share/gpodder/extensions/youtube-dl.py)
